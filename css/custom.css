@@ -156,6 +156,27 @@ h5{
     letter-spacing: 1px;
 }
 
+    /* COMING SOON */
+    #coming-soon {
+        margin-top: 3rem;
+    }
+
+    #coming-soon > .card-header {
+        color: #007bff;
+        user-select: none;
+        background-color: #007bff13;
+    }
+
+    #coming-soon > .card-body {
+        color: black;
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+
+    #coming-soon > .card-body > :last-child {
+        margin-bottom: 0px;
+    }
+
 /* START FEATURES */
 #start-features > .col > h3 {
     margin-bottom: 14px;
@@ -279,26 +300,6 @@ h5{
     }
 
     #whats-new > .card-body > h5 {
-        margin-bottom: 0px;
-    }
-
-    /* COMING SOON */
-    #coming-soon {
-        margin-top: 3rem;
-    }
-
-    #coming-soon > .card-header {
-        color: #007bff;
-        user-select: none;
-    }
-
-    #coming-soon > .card-body {
-        color: black;
-        font-weight: 400;
-        font-size: 1.1rem;
-    }
-
-    #coming-soon > .card-body > :last-child {
         margin-bottom: 0px;
     }
 
