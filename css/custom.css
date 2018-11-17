@@ -188,6 +188,7 @@ h5{
     height: 30px;
     color: #007bff;
     border-color: #007bff;
+    fill: #007bff20;
 }
 
 #start-features > .col > h3 > svg {
