@@ -1,0 +1,320 @@
+* {
+    outline: none !important;
+}
+
+body {
+    position: relative;
+}
+
+:target {
+    animation-name:example;
+    animation-duration: 1.5s;
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+@keyframes example {
+    from  {background-color: #007bff2f;}
+    to {background-color: #007bff00;}
+}
+
+pre {
+    white-space: pre-line;
+    user-select: all;
+    color: #007bff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e9e9e9;
+}
+
+.card-text > pre {
+    margin-bottom: 0px;
+}
+
+#site-dev-warning {
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    padding: .375rem .75rem;
+    padding-left: 57px;
+    padding-right: 57px;
+    border-radius: .25rem;
+    color: #007bff;
+    background-color: #e9ecef;
+    border-color: #e9ecef;
+    z-index: 2500;
+}
+
+h3, h6  {
+    font-family: 'Wavehaus';
+    font-weight: 600;
+}
+
+h5{
+    font-family: 'Wavehaus';
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* NAVBAR */
+.navbar-brand {
+    user-select: none;
+}
+
+.navbar-brand > img {
+    height: 50px;
+}
+
+.navbar-nav {
+    /* font-family: 'Wavehaus';
+    font-weight: 600; */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* GO TO TOP */
+#go-to-top {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    height: 65px;
+    width: 65px;
+    overflow: hidden;
+    border-top-left-radius: 100%;
+    background: linear-gradient(135deg, rgba(255,255,255,0) 0%, rgba(5,126,255,0) 50%, rgba(5,126,255,1) 50%, rgba(0,123,255,1) 51%, rgba(0,123,255,1) 100%);
+    z-index: 3000;
+}
+
+#go-to-top > i {
+    position: absolute;
+    right: 7px;
+    bottom: 7px;
+    transform: scale(1.3);
+    color: white;
+    transition: 0.1s all ease-in-out;
+}
+
+#go-to-top:hover > i {
+    color: #9ccafc;
+    transition: 0.1s all ease-in-out;
+}
+
+#go-to-top > div {
+    height: 150px;
+    width: 150px;
+    transform: rotate(45deg) translateY(-20%) translateX(20%);
+    background: black;
+}
+
+/* BUTTONS */
+.btn {
+    font-family: 'Wavehaus';
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-lg {
+    font-size: 15px;
+}
+
+/* BUTTON ROW */
+.button-row > a{
+    margin-right: 15px;
+}
+
+/* JUMBOTRON */
+.jumbotron > .container > h1 {
+    font-family: 'Wavehaus';
+    font-weight: 600;
+}
+
+/* LIST GROUP */
+.list-group-item > :not(h5):last-child {
+    margin-bottom: 0px;
+}
+
+/* CARD */
+.card > h5.card-header {
+    font-family: 'Wavehaus';
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.card-body > h5.card-title {
+    font-family: 'Wavehaus';
+    font-weight: 700;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+}
+
+/* START FEATURES */
+#start-features > .col > h3 {
+    margin-bottom: 14px;
+}
+
+#start-features > .col svg {
+    margin-bottom: 17px;
+    width: 30px;
+    height: 30px;
+    color: #007bff;
+    border-color: #007bff;
+}
+
+#start-features > .col > h3 > svg {
+    margin-bottom: 0px;
+    margin-right: 12px;
+}
+
+
+/* GET STARTED */
+#get-started {
+    margin-bottom: 2rem;
+}
+
+/* USE OF TAGS */
+    /* TAG SEARCH */
+    #list-tags > div > dt {
+        font-family: 'Wavehaus';
+        font-weight: 600;
+        text-transform: lowercase;
+        letter-spacing: 1px;
+    }
+
+    #search-list-tags {
+        margin-bottom: 20px;
+    }
+
+    #filter-list-tags > dl > div {
+        margin-bottom: 20px;
+    }
+
+    /* TAG ROWS */
+    #tags .row > div {
+        margin-bottom: 40px;
+    }
+
+    /* TAG SELECTION */
+    #tags-first > ul > li > h5, #tags-scnd > ul > li > h5 {
+        user-select: all
+    }
+
+    /* TAG BADGES */
+    #tags-first > ul > li .badge, #tags-scnd > ul > li .badge, .badge-tag-scnd {
+        margin-left: 10px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 0.7rem;
+        user-select: none;
+    }
+
+        /* TAG BADGE SECOND TAG SUPPORT */
+
+        div[badge-tag-scnd] {
+            display: inline-block;
+            color: #fff;
+            background-color: #6c757d;
+            font-weight: 700;
+            font-size: 11.2px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            line-height: 1;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: .25rem;
+            padding: .25em .4em;
+            margin-left: 10px;
+        }
+
+        div[badge-tag-scnd]::after {
+            content: 'second tag';
+        }
+
+        /* TAG BADGE BUG */
+        div[badge-tag-bug] {
+            display: inline-block;
+            color: #fff;
+            background-color: #dc3545;
+            font-weight: 700;
+            font-size: 11.2px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            line-height: 1;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: .25rem;
+            padding: .25em .4em;
+            margin-left: 10px;
+        }
+
+        div[badge-tag-bug]::after {
+            content: 'bug';
+        }
+
+    /* WHATS NEW */
+    #whats-new, #coming-soon {
+        margin-bottom: 2rem;
+        border-color: #007bff;
+    }
+
+    #whats-new > .card-header {
+        color: #fff;
+        background-color: #007bff;
+        border-color: #007bff;
+        user-select: none;
+    }
+
+    #whats-new > .card-body > :last-child {
+        margin-bottom: 0px;
+    }
+
+    #whats-new > .card-body > h5 {
+        margin-bottom: 0px;
+    }
+
+    /* COMING SOON */
+    #coming-soon {
+        margin-top: 3rem;
+    }
+
+    #coming-soon > .card-header {
+        color: #007bff;
+        user-select: none;
+    }
+
+    #coming-soon > .card-body {
+        color: black;
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+
+    #coming-soon > .card-body > :last-child {
+        margin-bottom: 0px;
+    }
+
+/* MEDIA QUERIES */
+@media (max-width: 576px){
+    body {
+        padding-bottom: 36px;
+    }
+}
+
+@media (min-width: 576px){
+    .jumbotron.jumbotron-subpage {
+        padding: 2rem 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    #site-dev-warning {
+        text-align: right;
+        max-width: fit-content;
+        padding-left: .75rem;
+    }
+}
