@@ -122,6 +122,10 @@ h5{
     font-size: 15px;
 }
 
+.btn-outline-primary {
+    background-color: #007bff13;
+}
+
 /* BUTTON ROW */
 .button-row > a{
     margin-right: 15px;
