@@ -40,3 +40,9 @@ function toggle(div) {
   div.classList.toggle("toggle-active");
   //div.classList.toggle("toggle-inact");
 }
+
+// Hide html-element with 'toggle-active' class
+function removeToggle() {
+  var element = document.getElementsByClassName("toggle-active");
+  element.classList.remove("toggle-active");
+}

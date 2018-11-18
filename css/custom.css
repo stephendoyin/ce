@@ -49,6 +49,15 @@ pre {
     z-index: 2500;
 }
 
+#site-dev-warning:not(.toggle-active) {
+    width: 10px;
+    overflow: hidden;
+}
+
+#site-dev-warning > p {
+    min-width: fit-content;
+}
+
 h3, h6  {
     font-family: 'Wavehaus';
     font-weight: 600;
@@ -329,13 +338,5 @@ footer {
 @media (min-width: 576px){
     .jumbotron.jumbotron-subpage {
         padding: 2rem 2rem;
-    }
-}
-
-@media (min-width: 992px) {
-    #site-dev-warning {
-        text-align: right;
-        max-width: fit-content;
-        padding-left: .75rem;
     }
 }
