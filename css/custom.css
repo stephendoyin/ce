@@ -31,6 +31,18 @@ pre {
     margin-bottom: 0px;
 }
 
+h3, h6  {
+    font-family: 'Wavehaus';
+    font-weight: 600;
+}
+
+h5{
+    font-family: 'Wavehaus';
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* SITE WARNING */
 #site-dev-warning {
     display: flex;
     flex-direction: row;
@@ -61,15 +73,10 @@ pre {
     min-width: fit-content;
 }
 
-h3, h6  {
-    font-family: 'Wavehaus';
-    font-weight: 600;
-}
-
-h5{
-    font-family: 'Wavehaus';
-    font-weight: 600;
-    letter-spacing: 1px;
+#site-dev-warning > p > svg {
+    margin-right: 15px;
+    margin-left: -6px;
+    transform: translateY(-1px);
 }
 
 /* NAVBAR */
