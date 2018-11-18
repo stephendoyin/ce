@@ -178,11 +178,11 @@ h5{
     }
 
 /* START FEATURES */
-#start-features > .col > h3 {
+#start-features > div > h3 {
     margin-bottom: 14px;
 }
 
-#start-features > .col svg {
+#start-features > fiv svg {
     margin-bottom: 17px;
     width: 30px;
     height: 30px;
@@ -191,7 +191,7 @@ h5{
     fill: #007bff20;
 }
 
-#start-features > .col > h3 > svg {
+#start-features > div > h3 > svg {
     margin-bottom: 0px;
     margin-right: 12px;
 }
