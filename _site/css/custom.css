@@ -33,15 +33,15 @@ pre {
 
 #site-dev-warning {
     position: fixed;
-    bottom: 0px;
-    right: 10px;
-    width: 100%;
+    bottom: 20px;
+    right: 45px;
+    /* width: 100%; */
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
     padding: .375rem .75rem;
-    padding-left: 57px;
-    padding-right: 57px;
+    /* padding-left: 57px; */
+    /* padding-right: 57px; */
     border-radius: .25rem;
     color: #007bff;
     background-color: #e9ecef;
@@ -50,12 +50,13 @@ pre {
 }
 
 #site-dev-warning:not(.toggle-active) {
-    width: 10px;
+    width: 36px;
     overflow: hidden;
+    border-radius: 120px;
 }
 
 #site-dev-warning > p {
-    min-width: fit-content
+    min-width: fit-content;
 }
 
 h3, h6  {
