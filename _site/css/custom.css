@@ -178,11 +178,11 @@ h5{
     }
 
 /* START FEATURES */
-#start-features > di > h3 {
+#start-features > div > h3 {
     margin-bottom: 14px;
 }
 
-#start-features > fiv svg {
+#start-features > div svg {
     margin-bottom: 17px;
     width: 30px;
     height: 30px;
