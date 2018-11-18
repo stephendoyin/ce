@@ -304,6 +304,11 @@ h5{
         margin-bottom: 0px;
     }
 
+/* FOOTER */
+footer {
+    margin-top: 3rem !important;
+}
+
 /* MEDIA QUERIES */
 @media (max-width: 576px){
     body {
