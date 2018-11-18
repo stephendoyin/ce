@@ -156,6 +156,12 @@ h5{
     letter-spacing: 1px;
 }
 
+.card-light > .card-header {
+    color: #007bff;
+    user-select: none;
+    background-color: #007bff13;
+}
+
     /* COMING SOON */
     #coming-soon {
         margin-top: 3rem;
