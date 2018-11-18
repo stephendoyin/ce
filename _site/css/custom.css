@@ -178,6 +178,10 @@ h5{
     }
 
 /* START FEATURES */
+#start-features > div {
+    margin-bottom: 2rem; 
+}
+
 #start-features > div > h3 {
     margin-bottom: 14px;
 }
