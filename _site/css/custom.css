@@ -32,6 +32,8 @@ pre {
 }
 
 #site-dev-warning {
+    display: flex;
+    flex-direction: row
     position: fixed;
     bottom: 20px;
     right: 45px;
