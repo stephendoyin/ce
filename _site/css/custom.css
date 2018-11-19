@@ -44,6 +44,7 @@ h5{
 
 /* SITE WARNING */
 #site-dev-warning {
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     position: fixed;
