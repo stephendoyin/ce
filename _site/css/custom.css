@@ -365,13 +365,13 @@ h5{
 }
 
 #resource-css embed {
-    height: 2400px;
+    height: 5041px;
     width: 100%;
     border: none;
 }
 
-#resource-css-op embed {
-    height: 5041px;
+#resource-css-options embed {
+    height: 805px;
     width: 100%;
     border: none;
 }
