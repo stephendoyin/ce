@@ -364,6 +364,8 @@ h5{
     border: none;
 }
 
+#resource-css embed {}
+
 /* FOOTER */
 footer {
     margin-top: 3rem !important;
