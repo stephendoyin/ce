@@ -203,6 +203,28 @@ h5{
         margin-bottom: 0px;
     }
 
+    /* CARD LIGHT */
+    .card.card-light {
+        margin-top: 3rem;
+    }
+
+    .card.card-light > .card-header {
+        color: #007bff;
+        user-select: none;
+        background-color: #007bff13;
+    }
+
+    .card.card-light > .card-body {
+        color: black;
+        font-weight: 400;
+        font-size: 1.1rem;
+    }
+
+    .card.card-light > .card-body > :last-child {
+        margin-bottom: 0px;
+    }
+
+
 /* START FEATURES */
 #start-features > div {
     margin-bottom: 2rem; 
