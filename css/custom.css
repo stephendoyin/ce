@@ -365,7 +365,9 @@ h5{
 }
 
 #resource-css embed {
-
+    height: 2400px;
+    width: 100%;
+    border: none;
 }
 
 /* FOOTER */
