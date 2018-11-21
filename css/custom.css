@@ -206,6 +206,7 @@ h5{
     /* CARD LIGHT */
     .card.card-light {
         margin-top: 3rem;
+        border-color: #007bff;
     }
 
     .card.card-light > .card-header {
@@ -221,7 +222,7 @@ h5{
     }
 
     .card.card-light > .card-body > :last-child {
-        margin-bottom: 0px;
+        margin-bottom: 0px !important;
     }
 
 
