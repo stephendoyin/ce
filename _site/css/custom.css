@@ -370,6 +370,12 @@ h5{
     border: none;
 }
 
+#resource-css-op embed {
+    height: 5041px;
+    width: 100%;
+    border: none;
+}
+
 /* FOOTER */
 footer {
     margin-top: 3rem !important;
