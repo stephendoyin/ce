@@ -222,7 +222,7 @@ h5{
     }
 
     .card.card-light > .card-body > :last-child {
-        margin-bottom: 0px !;
+        margin-bottom: 0px !important;
     }
 
 
@@ -356,6 +356,13 @@ h5{
     #whats-new > .card-body > h5 {
         margin-bottom: 0px;
     }
+
+/* RECOURSES */
+#resource-js embed {
+    height: 1000px;
+    width: 100%;
+    border: none;
+}
 
 /* FOOTER */
 footer {
