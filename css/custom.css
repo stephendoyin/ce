@@ -42,6 +42,11 @@ h5{
     letter-spacing: 1px;
 }
 
+/* MENU DROPDOWN */
+#navbarDropdownMenuLink::after {
+    display: none;
+}
+
 /* SITE WARNING */
 #site-dev-warning {
     cursor: pointer;
