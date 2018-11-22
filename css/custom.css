@@ -47,6 +47,10 @@ h5{
     display: none;
 }
 
+#navbarDropdownMenuLink > svg {
+    transform: translateY(-2px);
+}
+
 /* SITE WARNING */
 #site-dev-warning {
     cursor: pointer;

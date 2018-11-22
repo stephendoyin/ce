@@ -44,7 +44,11 @@ h5{
 
 /* MENU DROPDOWN */
 #navbarDropdownMenuLink::after {
-    display: non
+    display: none;
+}
+
+#navbarDropdownMenuLink > svg {
+    transform: translateY(-2px);
 }
 
 /* SITE WARNING */
