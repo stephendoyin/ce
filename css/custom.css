@@ -42,6 +42,15 @@ h5{
     letter-spacing: 1px;
 }
 
+/* REMOVE EXTRA PADDING COL */
+.no-padding-xtr-l {
+    margin-left: -25px
+}
+
+.no-padding-xtr-r {
+    margin-right: -25px
+}
+
 /* MENU DROPDOWN */
 #navbarDropdownMenuLink::after {
     display: none;
