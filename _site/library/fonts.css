@@ -1,0 +1,328 @@
+/* @font-face {
+    font-family: 'FONTNAME';
+    src: url(./fonts/otf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'FONTNAME';
+    src: url(./fonts/otf);
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FONTNAME';
+    src: url(./fonts/otf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'FONTNAME';
+    src: url(./fonts/otf);
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FONTNAME';
+    src: url(./fonts/otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'FONTNAME';
+    src: url(./fonts/otf);
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FONTNAME';
+    src: url(./fonts/otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'FONTNAME';
+    src: url(./fonts/otf);
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FONTNAME';
+    src: url(./fonts/otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'FONTNAME';
+    src: url(./fonts/otf);
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FONTNAME';
+    src: url(./fonts/otf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'FONTNAME';
+    src: url(./fonts/otf);
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FONTNAME';
+    src: url(./fonts/otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'FONTNAME';
+    src: url(./fonts/otf);
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FONTNAME';
+    src: url(./fonts/otf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'FONTNAME';
+    src: url(./fonts/otf);
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'FONTNAME';
+    src: url(./fonts/otf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'FONTNAME';
+    src: url(./fonts/otf);
+    font-weight: 900;
+    font-style: italic;
+} */
+
+/* AVENIR */
+    @font-face {
+        font-family: 'Avenir';
+        src: url(./fonts/avenir-300.ttf);
+        font-weight: 300;
+    }
+
+    @font-face {
+        font-family: 'Avenir';
+        src: url(./fonts/avenir-400.ttf);
+        font-weight: 400;
+    }
+
+    @font-face {
+        font-family: 'Avenir';
+        src: url(./fonts/avenir-500.ttf);
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: 'Avenir';
+        src: url(./fonts/avenir-700.ttf);
+        font-weight: 600;
+    }
+
+    @font-face {
+        font-family: 'Avenir';
+        src: url(./fonts/avenir-900.ttf);
+        font-weight: 700;
+    }
+
+/* AVENIR */
+
+    @font-face {
+        font-family: 'Arquitecta';
+        src: url(./fonts/avenir-300.ttf);
+        font-weight: 300;
+    }
+
+    @font-face {
+        font-family: 'Arquitecta';
+        src: url(./fonts/avenir-300italic.ttf);
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Arquitecta';
+        src: url(./fonts/avenir-500.ttf);
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: 'Arquitecta';
+        src: url(./fonts/avenir-500italic.ttf);
+        font-weight: 500;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Arquitecta';
+        src: url(./fonts/avenir-900.ttf);
+        font-weight: 900;
+    }
+
+    @font-face {
+        font-family: 'Arquitecta';
+        src: url(./fonts/avenir-900italic.ttf);
+        font-weight: 900;
+        font-style: italic;
+    }
+
+/* BEBAS */
+    @font-face {
+        font-family: 'FONTNAME';
+        src: url(./fonts/bebas-neue-100.otf);
+        font-weight: 100;
+    }
+
+    @font-face {
+        font-family: 'FONTNAME';
+        src: url(./fonts/bebas-neue-300.otf);
+        font-weight: 300;
+    }
+
+    @font-face {
+        font-family: 'FONTNAME';
+        src: url(./fonts/bebas-neue-400.otf);
+        font-weight: 400;
+    }
+
+    @font-face {
+        font-family: 'FONTNAME';
+        src: url(./fonts/bebas-neue-700.otf);
+        font-weight: 700;
+    }
+
+/* BRANDON */
+    @font-face {
+        font-family: 'Brandon';
+        src: url(./fonts/brandon-100italic.otf);
+        font-weight: 900;
+    }
+
+    @font-face {
+        font-family: 'Brandon';
+        src: url(./fonts/brandon-100.otf);
+        font-weight: 100;
+    }
+
+    @font-face {
+        font-family: 'Brandon';
+        src: url(./fonts/brandon-300italic.otf);
+        font-weight: 300;
+    }
+
+    @font-face {
+        font-family: 'Brandon';
+        src: url(./fonts/brandon-300.otf);
+        font-weight: 300;
+    }
+
+    @font-face {
+        font-family: 'Brandon';
+        src: url(./fonts/brandon-400.otf);
+        font-weight: 400;
+    }
+
+    @font-face {
+        font-family: 'Brandon';
+        src: url(./fonts/brandon-400italic.otf);
+        font-weight: 400;
+    }
+
+    @font-face {
+        font-family: 'Brandon';
+        src: url(./fonts/brandon-500.otf);
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: 'Brandon';
+        src: url(./fonts/brandon-500italic.otf);
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: 'Brandon';
+        src: url(./fonts/brandon-700.otf);
+        font-weight: 700;
+    }
+
+    @font-face {
+        font-family: 'Brandon';
+        src: url(./fonts/brandon-700italic.otf);
+        font-weight: 700;
+    }
+
+    @font-face {
+        font-family: 'Brandon';
+        src: url(./fonts/brandon-900.otf);
+        font-weight: 900;
+    }
+
+    @font-face {
+        font-family: 'Brandon';
+        src: url(./fonts/brandon-900italic.otf);
+        font-weight: 900;
+    }
+
+
+/* CIRCULAR */
+    @font-face {
+        font-family: 'Circular';
+        src: url(./fonts/circular-std-500.otf);
+        font-weight: 300;
+    }
+
+    @font-face {
+        font-family: 'Circular';
+        src: url(./fonts/circular-std-500italic.otf);
+        font-weight: 500;
+        font-style: italic;
+    }
+
+
+    @font-face {
+        font-family: 'Circular';
+        src: url(./fonts/circular-std-700.otf);
+        font-weight: 700;
+    }
+
+    @font-face {
+        font-family: 'Circular';
+        src: url(./fonts/circular-std-700italic.otf);
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Circular';
+        src: url(./fonts/circular-std-900.otf);
+        font-weight: 900;
+    }
+
+    @font-face {
+        font-family: 'Circular';
+        src: url(./fonts/circular-std-900italic.otf);
+        font-weight: 900;
+        font-style: italic;
+    }
