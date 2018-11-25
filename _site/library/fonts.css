@@ -217,6 +217,7 @@
         font-family: 'Brandon';
         src: url(./fonts/brandon-100italic.otf);
         font-weight: 900;
+        font-style: italic;
     }
 
     @font-face {
@@ -229,6 +230,7 @@
         font-family: 'Brandon';
         src: url(./fonts/brandon-300italic.otf);
         font-weight: 300;
+        font-style: italic;
     }
 
     @font-face {
@@ -247,6 +249,7 @@
         font-family: 'Brandon';
         src: url(./fonts/brandon-400italic.otf);
         font-weight: 400;
+        font-style: italic;
     }
 
     @font-face {
@@ -271,6 +274,7 @@
         font-family: 'Brandon';
         src: url(./fonts/brandon-700italic.otf);
         font-weight: 700;
+        font-style: italic;
     }
 
     @font-face {
@@ -285,6 +289,58 @@
         font-weight: 900;
     }
 
+/* BROWN */
+    @font-face {
+        font-family: 'Brown';
+        src: url(./fonts/brown-700italic.otf);
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Brown';
+        src: url(./fonts/brown-100.otf);
+        font-weight: 100;
+    }
+
+    @font-face {
+        font-family: 'Brown';
+        src: url(./fonts/brown-100italic.otf);
+        font-weight: 100;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Brown';
+        src: url(./fonts/brown-300.otf);
+        font-weight: 300;
+    }
+
+    @font-face {
+        font-family: 'Brown';
+        src: url(./fonts/brown-300italic.otf);
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Brown';
+        src: url(./fonts/brown-400.otf);
+        font-weight: 400;
+    }
+
+    @font-face {
+        font-family: 'Brown';
+        src: url(./fonts/brown-400italic.otf);
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Brown';
+        src: url(./fonts/brown-700.otf);
+        font-weight: 700;
+    }
 
 /* CIRCULAR */
     @font-face {
@@ -325,4 +381,210 @@
         src: url(./fonts/circular-std-900italic.otf);
         font-weight: 900;
         font-style: italic;
+    }
+
+/* DIN PRO */
+    @font-face {
+        font-family: 'Din Pro';
+        src: url(./fonts/dinpro-300.otf);
+        font-weight: 300;
+    }
+
+    @font-face {
+        font-family: 'Din Pro';
+        src: url(./fonts/dinpro-300italic.otf);
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Din Pro';
+        src: url(./fonts/dinpro-400-italic.otf);
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Din Pro';
+        src: url(./fonts/dinpro-400.otf);
+        font-weight: 400;
+    }
+
+    @font-face {
+        font-family: 'Din Pro';
+        src: url(./fonts/dinpro-500.otf);
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: 'Din Pro';
+        src: url(./fonts/dinpro-500italic.otf);
+        font-weight: 500;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Din Pro';
+        src: url(./fonts/dinpro-700.otf);
+        font-weight: 700;
+    }
+
+    @font-face {
+        font-family: 'Din Pro';
+        src: url(./fonts/dinpro-700italic.otf);
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Din Pro';
+        src: url(./fonts/dinpro-900.otf);
+        font-weight: 900;
+    }
+
+    @font-face {
+        font-family: 'Din Pro';
+        src: url(./fonts/dinpro-900italic.otf);
+        font-weight: 900;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Din Pro Condensed';
+        src: url(./fonts/dinpro-cond-300.otf);
+        font-weight: 300;
+    }
+
+    @font-face {
+        font-family: 'Din Pro Condensed';
+        src: url(./fonts/dinpro-cond-300ita.otf);
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Din Pro Condensed';
+        src: url(./fonts/dinpro-cond-400.otf);
+        font-weight: 400;
+    }
+
+    @font-face {
+        font-family: 'Din Pro Condensed';
+        src: url(./fonts/dinpro-cond-400ita.otf);
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Din Pro Condensed';
+        src: url(./fonts/dinpro-cond-500.otf);
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: 'Din Pro Condensed';
+        src: url(./fonts/dinpro-cond-500ita.otf);
+        font-weight: 500;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Din Pro Condensed';
+        src: url(./fonts/dinpro-cond-700.otf);
+        font-weight: 700;
+    }
+
+    @font-face {
+        font-family: 'Din Pro Condensed';
+        src: url(./fonts/dinpro-cond-700ita.otf);
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Din Pro Condensed';
+        src: url(./fonts/dinpro-cond-900.otf);
+        font-weight: 900;
+    }
+
+    @font-face {
+        font-family: 'Din Pro Condensed';
+        src: url(./fonts/dinpro-cond-900ita.otf);
+        font-weight: 900;
+        font-style: italic;
+    }
+
+/* FLANDERS SANS */
+    @font-face {
+        font-family: 'Flanders Sans';
+        src: url(./fonts/flanders-sans-400.otf);
+        font-weight: 400;
+    }
+
+    @font-face {
+        font-family: 'Flanders Sans';
+        src: url(./fonts/flanders-sans-500.otf);
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: 'Flanders Serif';
+        src: url(./fonts/flanders-serif-300.otf);
+        font-weight: 300;
+    }
+
+    @font-face {
+        font-family: 'Flanders Serif';
+        src: url(./fonts/flanders-serif-400.otf);
+        font-weight: 400;
+    }
+
+    @font-face {
+        font-family: 'Flanders Serif';
+        src: url(./fonts/flanders-serif-500.otf);
+        font-weight: 400;
+    }
+
+/* GEOMETOS ROUNDED */
+    @font-face {
+        font-family: 'Geometos Rounded';
+        src: url(./fonts/geometos-rounded.ttf);
+        font-weight: 400;
+    }
+
+/* WAVEHAUS */
+    @font-face {
+        font-family: 'Wavehaus';
+        src: url(./fonts/wavehaus-100.otf);
+        font-weight: 100;
+    }
+
+    @font-face {
+        font-family: 'Wavehaus';
+        src: url(./fonts/wavehaus-300.otf);
+        font-weight: 300;
+    }
+
+    @font-face {
+        font-family: 'Wavehaus';
+        src: url(./fonts/wavehaus-400.otf);
+        font-weight: 400;
+    }
+
+    @font-face {
+        font-family: 'Wavehaus';
+        src: url(./fonts/wavehaus-600.otf);
+        font-weight: 600;
+    }
+
+    @font-face {
+        font-family: 'Wavehaus';
+        src: url(./fonts/wavehaus-700.otf);
+        font-weight: 700;
+    }
+
+    @font-face {
+        font-family: 'Wavehaus';
+        src: url(./fonts/wavehaus-900.otf);
+        font-weight: 900;
     }
