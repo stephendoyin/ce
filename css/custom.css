@@ -31,7 +31,7 @@ pre {
     margin-bottom: 0px;
 }
 
-h3, h6  {
+h1, h3, h6  {
     font-family: 'Wavehaus';
     font-weight: 600;
 }
@@ -189,6 +189,11 @@ a:hover > svg.feather {
 .jumbotron > .container > h1 {
     font-family: 'Wavehaus';
     font-weight: 600;
+}
+
+/* CAROUSEL INTRO */
+#carousel-intro {
+    background-color: #e9ecef;
 }
 
 /* LIST GROUP */
