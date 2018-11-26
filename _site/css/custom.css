@@ -56,11 +56,6 @@ a:hover > svg.feather {
     transition: 0.2s transform ease-in-out;
 }
 
-/* COLUMN */
-.row [class*="col"] > :first-child {
-    margin-top: 0px
-}
-
 /* REMOVE EXTRA PADDING COL */
 .no-padding-xtr-l {
     margin-left: -25px
@@ -424,6 +419,11 @@ a:hover > svg.feather {
 /* FOOTER */
 footer {
     margin-top: 3rem !important;
+}
+
+/* COLUMNS */
+.row [class*="col"] > :first-child {
+    margin-top: 0px;
 }
 
 /* MEDIA QUERIES */
