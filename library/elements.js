@@ -5,7 +5,7 @@ function addCSSMain(filename){
     var head = document.getElementsByTagName('head')[0];
 
     var style = document.createElement('link');
-    style.href = 'https://ce.lennertderyck.be/custom-elements/library/elements.css';
+    style.href = 'https://ce.lennertderyck.be/library/elements.css';
     style.type = 'text/css';
     style.rel = 'stylesheet';
     head.append(style);
@@ -31,7 +31,7 @@ function addCSSFonts(filename){
     var head = document.getElementsByTagName('head')[0];
 
     var style = document.createElement('link');
-    style.href = 'https://ce.lennertderyck.be/custom-elements/library/fonts.css';
+    style.href = 'https://ce.lennertderyck.be/library/fonts.css';
     style.type = 'text/css';
     style.rel = 'stylesheet';
     head.append(style);
