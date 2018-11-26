@@ -56,6 +56,11 @@ a:hover > svg.feather {
     transition: 0.2s transform ease-in-out;
 }
 
+/* COLUMN */
+.row [class*="col"] > :first-child#coming-soon {
+    background-color: red;
+}
+
 /* REMOVE EXTRA PADDING COL */
 .no-padding-xtr-l {
     margin-left: -25px
