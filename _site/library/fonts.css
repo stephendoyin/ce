@@ -146,8 +146,7 @@
         font-weight: 700;
     }
 
-/* AVENIR */
-
+/* ARQUITECTA */
     @font-face {
         font-family: 'Arquitecta';
         src: url(./fonts/avenir-300.ttf);
@@ -215,15 +214,15 @@
 /* BRANDON */
     @font-face {
         font-family: 'Brandon';
-        src: url(./fonts/brandon-100italic.otf);
-        font-weight: 900;
-        font-style: italic;
+        src: url(./fonts/brandon-100.otf);
+        font-weight: 100;
     }
 
     @font-face {
         font-family: 'Brandon';
-        src: url(./fonts/brandon-100.otf);
+        src: url(./fonts/brandon-100italic.otf);
         font-weight: 100;
+        font-style: italic;
     }
 
     @font-face {
@@ -262,6 +261,7 @@
         font-family: 'Brandon';
         src: url(./fonts/brandon-500italic.otf);
         font-weight: 500;
+        font-style: italic;
     }
 
     @font-face {
@@ -287,6 +287,7 @@
         font-family: 'Brandon';
         src: url(./fonts/brandon-900italic.otf);
         font-weight: 900;
+        font-style: italic;
     }
 
 /* BROWN */
@@ -542,7 +543,7 @@
     @font-face {
         font-family: 'Flanders Serif';
         src: url(./fonts/flanders-serif-500.otf);
-        font-weight: 400;
+        font-weight: 500;
     }
 
 /* GEOMETOS ROUNDED */
