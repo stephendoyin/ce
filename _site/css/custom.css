@@ -47,12 +47,12 @@ a {
 }
 
 a > svg.feather {
-    margin-left: 10px;
+    margin-left: 5px;
     transition: 0.2s transform ease-in-out;
 }
 
 a:hover > svg.feather {
-    transform: translateY(-3px);
+    transform: translateY(2px);
     transition: 0.2s transform ease-in-out;
 }
 
@@ -194,6 +194,7 @@ a:hover > svg.feather {
 /* CAROUSEL INTRO */
 #carousel-intro {
     background-color: #e9ecef;
+    margin-bottom: 30px;
 }
 
 /* LIST GROUP */
