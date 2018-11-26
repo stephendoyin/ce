@@ -43,15 +43,15 @@ h5{
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
-a + svg.feather {
+a > svg.feather {
     margin-left: 10px;
     transition: 0.2s transform ease-in-out;
 }
 
-a:hover + svg.feather {
+a:hover > svg.feather {
     transform: translateY(-3px);
     transition: 0.2s transform ease-in-out;
 }
