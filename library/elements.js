@@ -27,7 +27,7 @@ function addCSSOptions(filename){
 addCSSFonts('style.css');
 
 // Include CSS file
-function addCSSMain(filename){
+function addCSSFonts(filename){
     var head = document.getElementsByTagName('head')[0];
 
     var style = document.createElement('link');
