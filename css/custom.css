@@ -57,8 +57,8 @@ a:hover > svg.feather {
 }
 
 /* COLUMN */
-.row [class*="col"] > :first-child#coming-soon {
-    background-color: red;
+.row [class*="col"] > :first-child {
+    margin-top: 0px;
 }
 
 /* REMOVE EXTRA PADDING COL */
