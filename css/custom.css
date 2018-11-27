@@ -450,9 +450,7 @@ footer {
     .jumbotron.jumbotron-subpage {
         padding: 2rem 2rem;
     }
-}
 
-@media (min-width: 768px) { 
     .carousel-control-next, .carousel-control-prev, .carousel-control-next, .carousel-control-next  {
         width: 32px;
         background: red;
