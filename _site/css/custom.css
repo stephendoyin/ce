@@ -452,6 +452,13 @@ footer {
     }
 }
 
+@media (min-width: 768px) { 
+    .carousel-control-next, .carousel-control-prev, .carousel-control-next, .carousel-control-next  {
+        width: 32px;
+        background: red;
+    }
+}
+
 @media (min-width: 992px){
     .carousel-control-next, .carousel-control-prev, .carousel-control-next, .carousel-control-next  {
         width: 133px;
