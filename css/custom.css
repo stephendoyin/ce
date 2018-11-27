@@ -134,6 +134,10 @@ body > nav > button {
     border: none;
 }
 
+#carousel-intro > a.carousel-control-prev, #carousel-intro > a.carousel-control-next {
+    display: none;
+}
+
 /* GO TO TOP */
 #go-to-top {
     position: fixed;
@@ -453,15 +457,5 @@ footer {
 @media (min-width: 576px){
     .jumbotron.jumbotron-subpage {
         padding: 2rem 2rem;
-    }
-
-    .carousel-control-next, .carousel-control-prev, .carousel-control-next, .carousel-control-next  {
-        width: 32px;
-    }
-}
-
-@media (min-width: 992px){
-    .carousel-control-next, .carousel-control-prev, .carousel-control-next, .carousel-control-next  {
-        width: 133px;
     }
 }
