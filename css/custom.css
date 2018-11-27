@@ -197,6 +197,19 @@ a:hover > svg.feather {
     margin-bottom: 60px;
 }
 
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    margin-right: 8px;
+    margin-left: 8px;
+    background-color: #007bff20;
+    border-radius: 100%;
+}
+
+.carousel-indicators .active {
+    background-color: var(--primary);
+}
+
 /* LIST GROUP */
 .list-group-item > :not(h5):last-child {
     margin-bottom: 0px;
