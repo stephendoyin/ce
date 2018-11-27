@@ -130,6 +130,10 @@ a:hover > svg.feather {
     text-transform: uppercase;
 }
 
+body > nav > button {
+    border: none;
+}
+
 /* GO TO TOP */
 #go-to-top {
     position: fixed;
@@ -453,13 +457,11 @@ footer {
 
     .carousel-control-next, .carousel-control-prev, .carousel-control-next, .carousel-control-next  {
         width: 32px;
-        background: red;
     }
 }
 
 @media (min-width: 992px){
     .carousel-control-next, .carousel-control-prev, .carousel-control-next, .carousel-control-next  {
         width: 133px;
-        background: red;
     }
 }
