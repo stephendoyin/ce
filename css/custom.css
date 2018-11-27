@@ -451,3 +451,10 @@ footer {
         padding: 2rem 2rem;
     }
 }
+
+@media (min-width: 992px){
+    .carousel-control-next, .carousel-control-prev, .carousel-control-next, .carousel-control-next  {
+        width: 133px;
+        background: red;
+    }
+}
