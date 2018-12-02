@@ -32,12 +32,12 @@ pre {
 }
 
 h1, h3, h6  {
-    font-family: 'Wavehaus';
+    font-family: 'Wavehaus' !important;
     font-weight: 600;
 }
 
 h5{
-    font-family: 'Wavehaus';
+    font-family: 'Wavehaus' !important;
     font-weight: 600;
     letter-spacing: 1px;
 }
