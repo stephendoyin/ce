@@ -306,3 +306,12 @@
 .lspacing-3 {letter-spacing: 3px !important;}
 
 /* CURSORS */
+
+/* FONT FAMILY */
+.font-main {
+	font-family: var(--font-main) !important;
+}
+
+.font-scnd {
+	font-family: var(--font-scnd) !important;
+}
