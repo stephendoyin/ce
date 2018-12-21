@@ -386,8 +386,21 @@
 /* CIRCULAR */
     @font-face {
         font-family: 'Circular';
+        src: url(./fonts/circular-std-400.otf);
+        font-weight: 400;
+    }
+
+    @font-face {
+        font-family: 'Circular';
+        src: url(./fonts/circular-std-400italic.otf);
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Circular';
         src: url(./fonts/circular-std-500.otf);
-        font-weight: 300;
+        font-weight: 500;
     }
 
     @font-face {
@@ -396,7 +409,6 @@
         font-weight: 500;
         font-style: italic;
     }
-
 
     @font-face {
         font-family: 'Circular';
@@ -628,4 +640,229 @@
         font-family: 'Wavehaus';
         src: url(./fonts/wavehaus-900.otf);
         font-weight: 900;
+    }
+
+/* EINA */
+    @font-face {
+        font-family: 'Eina 04';
+        src: url(./fonts/eina-04-700italic.otf);
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 01';
+        src: url(./fonts/eina-01-300.otf);
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 01';
+        src: url(./fonts/eina-01-300italic.otf);
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 01';
+        src: url(./fonts/eina-01-400.otf);
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 01';
+        src: url(./fonts/eina-01-400italic.otf);
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 01';
+        src: url(./fonts/eina-01-600.otf);
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 01';
+        src: url(./fonts/eina-01-600italic.otf);
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 01';
+        src: url(./fonts/eina-01-700.otf);
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 01';
+        src: url(./fonts/eina-01-700italic.otf);
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 02';
+        src: url(./fonts/eina-02-300.otf);
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 02';
+        src: url(./fonts/eina-02-300italic.otf);
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 02';
+        src: url(./fonts/eina-02-400.otf);
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 02';
+        src: url(./fonts/eina-02-400italic.otf);
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 02';
+        src: url(./fonts/eina-02-600.otf);
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 02';
+        src: url(./fonts/eina-02-600italic.otf);
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 02';
+        src: url(./fonts/eina-02-700.otf);
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 02';
+        src: url(./fonts/eina-02-700italic.otf);
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 03';
+        src: url(./fonts/eina-03-300.otf);
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 03';
+        src: url(./fonts/eina-03-300italic.otf);
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 03';
+        src: url(./fonts/eina-03-400.otf);
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 03';
+        src: url(./fonts/eina-03-400italic.otf);
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 03';
+        src: url(./fonts/eina-03-600.otf);
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 03';
+        src: url(./fonts/eina-03-600italic.otf);
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 03';
+        src: url(./fonts/eina-03-700.otf);
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 03';
+        src: url(./fonts/eina-03-700italic.otf);
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 04';
+        src: url(./fonts/eina-04-300.otf);
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 04';
+        src: url(./fonts/eina-04-300italic.otf);
+        font-weight: 300;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 04';
+        src: url(./fonts/eina-04-400.otf);
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 04';
+        src: url(./fonts/eina-04-400italic.otf);
+        font-weight: 400;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 04';
+        src: url(./fonts/eina-04-600.otf);
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 04';
+        src: url(./fonts/eina-04-600italic.otf);
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'Eina 04';
+        src: url(./fonts/eina-04-700.otf);
+        font-weight: 700;
+        font-style: italic;
     }
