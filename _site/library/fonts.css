@@ -118,7 +118,7 @@
 /* AKKURAT */
     @font-face {
         font-family: 'Akkurat';
-        src: url(../fonts/akkurat-std-300.otf);
+        src: url(./fonts/akkurat-std-300);
         font-weight: 300;
     }
 

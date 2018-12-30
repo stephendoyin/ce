@@ -17,7 +17,7 @@ title: Custom elements
 email: hello@lennertderyck.be
 description: >- # this means to ignore newlines until "baseurl:"
   A simple library of css-classes supported by some javascript, making websites easier.
-baseurl: "ce.lennertderyck.be" # the subpath of your site, e.g. /blog
+baseurl: "/ce.lennertderyck.be" # the subpath of your site, e.g. /blog
 url: "ce.lennertderyck.be" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lennertderyck
 github_username: lennertderyck
