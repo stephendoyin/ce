@@ -315,3 +315,48 @@
 .font-scnd {
 	font-family: var(--font-scnd) !important;
 }
+
+/* MEDIA QUERIES */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+	.hide-sm {
+		display: none !important;
+	}
+
+	.show-sm {
+		display: initial !important;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	.hide-md {
+		display: none !important;
+	}
+
+	.show-md {
+		display: initial !important;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.hide-lg {
+		display: none !important;
+	}
+
+	.show-lg {
+		display: initial !important;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	.hide-xl {
+		display: none !important;
+	}
+
+	.show-xl {
+		display: initial !important;
+	}
+}
