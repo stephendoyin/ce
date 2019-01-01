@@ -316,15 +316,11 @@
 	font-family: var(--font-scnd) !important;
 }
 
-/* MEDIA QUERIES */
+/* DISPLAY NONE */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
 	.hide-sm {
 		display: none !important;
-	}
-
-	.show-sm {
-		display: initial !important;
 	}
 }
 
@@ -333,20 +329,12 @@
 	.hide-md {
 		display: none !important;
 	}
-
-	.show-md {
-		display: initial !important;
-	}
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 	.hide-lg {
 		display: none !important;
-	}
-
-	.show-lg {
-		display: initial !important;
 	}
 }
 
@@ -355,8 +343,39 @@
 	.hide-xl {
 		display: none !important;
 	}
+}
 
-	.show-xl {
-		display: initial !important;
+/* DISPLAY ONLY */
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 575.98px) { 
+	.hide-xs {
+		display: none !important;
+	}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.hide-sm {
+		display: none !important;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.hide-md {
+		display: none !important;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	.hide-lg {
+		display: none !important;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+	.hide-xl {
+		display: none !important;
 	}
 }
