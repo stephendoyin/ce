@@ -55,9 +55,8 @@ function toggle(div) {
 }
 
 // Add toggle function
-function addToggle() {
-  var element = document.getElementsByClassName("toggle-active");
-  element.classList.add("toggle-active");
+function addToggle(this) {
+  this.classList.add("toggle-active");
 }
 
 // Hide html-element with 'toggle-active' class
