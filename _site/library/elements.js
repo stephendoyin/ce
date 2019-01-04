@@ -54,6 +54,11 @@ function toggle(div) {
   //div.classList.toggle("toggle-inact");
 }
 
+// Add toggle function
+function addToggle() {
+  classList.add("toggle-active");
+}
+
 // Hide html-element with 'toggle-active' class
 function removeToggle() {
   var element = document.getElementsByClassName("toggle-active");
