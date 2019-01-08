@@ -6,6 +6,17 @@
 	--tooltip-bg-color: #3D3D3D!important;
 	--tooltip-color: white!important;
 	--disabled-fade: 0.6!important;
+
+	/* TARGET MARK */
+	--target-mark-bg: initial;
+	--target-mark-bg-color: initial;
+	--target-mark-border: initial;
+	--target-mark-border-t: initial; /* fill in '--target-mark-border-y' using same properties for top and bottom; */
+	--target-mark-border-b: initial; /* fill in '--target-mark-border-y' using same properties for top and bottom; */
+	--target-mark-border-l: initial; /* fill in '--target-mark-border-x' using same properties for left and right; */
+	--target-mark-border-r: initial; /* fill in '--target-mark-border-x' using same properties for left and right; */
+	--target-mark-border-y: initial; /* define properties for top and bottom border, add this var to '--target-mark-border-t'-var and '--target-mark-border-b'-var */
+	--target-mark-border-x: initial; /* define properties for left and right border, add this var to '--target-mark-border-l'-var and '--target-mark-border-r'-var */
 }
 
 /* STATUS */
@@ -15,6 +26,24 @@
 }
 .status-text::before {
 	content: 'on' !important;
+}
+
+/* PLUGINS */
+[ce-plugin="true"] {
+	all: inherit;
+}
+
+/* MARK THE TARGET ELEMENT WHEN CLICKED ON URL WITH ID IN (like this page if you click on one of the buttons under the searchbar */
+/* to apply on everything -> add to <body> */
+[ce-target-mark="true"] *:target {
+	background: var(--target-mark-bg);
+	background-color: var(--target-mark-bg-color);
+	border: var(--target-mark-border); /* for all four sides, write in shorthand -> 'body: <thickness> <style> <color>' */
+	border-top: var(--target-mark-border-t);
+	border-bottom: var(--target-mark-border-b);
+	border-left: var(--target-mark-border-l);
+	border-right: var(--target-mark-border-r);
+	/* transition properties */
 }
 
 /* DISABLE */
