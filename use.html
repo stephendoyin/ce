@@ -32,40 +32,13 @@ lead: Now you added the javascript-file to your site you can start using it.
             <h3>
                 Filter
             </h3>
-            <input type="text" id="search-list-tags" class="form-control" onkeyup="searchTagsList()" placeholder="Search for tags" title="Type in a name">
+            <input type="text" id="search-list-tags" class="form-control" onkeyup="searchTagsList()" placeholder="Search for tags or functions" title="Type in a name">
             <dl id="list-tags">
                 <div class="list-group">
                     <h5>Tags / main part</h5>
-                    <dt class="list-group-item"><a href="#tag-disabled">disabled</a></dt>
-                    <dt class="list-group-item"><a href="#tag-no-select">no-select</a></dt>
-                    <dt class="list-group-item"><a href="#tag-no-save">no-save</a></dt>
-                    <dt class="list-group-item"><a href="#tag-no-display">no-display</a></dt>
-                    <dt class="list-group-item"><a href="#tag-hidden">hidden</a></dt>
-                    <dt class="list-group-item"><a href="#tag-no-margin">no-margin</a></dt>
-                    <dt class="list-group-item"><a href="#tag-no-padding">no-padding</a></dt>
-                    <dt class="list-group-item"><a href="#tag-no-outline">no-outline</a></dt>
-                    <dt class="list-group-item"><a href="#tag-no-border">no-border</a></dt>
-                    <dt class="list-group-item"><a href="#tag-uppc">uppc</a></dt>
-                    <dt class="list-group-item"><a href="#tag-lowc">low</a></dt>
-                    <dt class="list-group-item"><a href="#tag-img-fit">img-fit</a></dt>
-                    <dt class="list-group-item"><a href="#tag-img-clip">img-clip</a></dt>
-                    <dt class="list-group-item"><a href="#tag-toolip">tooltip</a></dt>
-                    <dt class="list-group-item"><a href="#tag-border-rd">border-rd</a></dt>
-                    <dt class="list-group-item"><a href="#tag-txt-align">txt-align</a></dt>
-                </div>
-                <div class="list-group">
-                        <h5>Tags / second part</h5>
-                        <dt class="list-group-item"><a href="#tag-scnd-x">[main part]-x</a></dt>
-                        <dt class="list-group-item"><a href="#tag-scnd-y">[main part]-y</a></dt>
-                        <dt class="list-group-item"><a href="#tag-scnd-t">[main part]-t</a></dt>
-                        <dt class="list-group-item"><a href="#tag-scnd-b">[main part]-b</a></dt>
-                        <dt class="list-group-item"><a href="#tag-scnd-l">[main part]-l</a></dt>
-                        <dt class="list-group-item"><a href="#tag-scnd-r">[main part]-r</a></dt>
-                    </div>
-                <div class="list-group">
-                    <h5>Javascript functions</h5>
-                    <dt class="list-group-item"><a href="#function-collapse">function-collapse</a></dt>
-                    <dt class="list-group-item"><a href="#function-toggle">function-toggle</a></dt>
+                    {% for tag in site.tags %}
+                        <dt class="list-group-item"><a href="#tag-{{ tag.class-name }}">{{ tag.full-name }}<div style="display: none;">{{ tag.content }}</div></a></dt>
+                    {% endfor %}
                 </div>
             </dl>
         </div>
@@ -78,42 +51,13 @@ lead: Now you added the javascript-file to your site you can start using it.
                         The main part defines the characteristics that need to change of a html-element.
                     </p>
                     <ul class="list-group list-group-flush">
-                        <li id="tag-disabled" class="list-group-item"><h5>disabled</h5>Disables the functionality of an element and fades the element out.</li>
-                        <li id="tag-no-select" class="list-group-item"><h5>no-select</h5>Disables the selection of a html-element.</li>
-                        <li id="tag-no-save" class="list-group-item"><h5>no-save</h5>Disables the saving of images or similar files by disabling the 'Save as'-option in the context menu when right clicked on an image or other file. It also disables the selection of the html-element.</li>
-                        <li id="tag-no-display" class="list-group-item"><h5>no-display</h5>Removes the element. The element won't take any space when removed.</li>
-                        <li id="tag-hidden" class="list-group-item"><h5>hidden</h5>Hides the element but still takes space. </li>
-                        <li id="tag-no-margin" class="list-group-item"><h5>no-margin<div badge-tag-scnd></div></h5>Removes any margin of an element.</li>
-                        <li id="tag-no-padding" class="list-group-item"><h5>no-padding<div badge-tag-scnd></div></h5>Removes any padding of an element.</li>
-                        <li id="tag-no-outline" class="list-group-item"><h5>no-outline</h5>Removes the outline of an element.</li>
-                        <li id="tag-no-border" class="list-group-item"><h5>no-border<div badge-tag-scnd></div></h5>Removes the border of an element.</li>
-                        <li id="tag-uppc" class="list-group-item"><h5>uppc</h5>Set any text whitin an html-element in capital.</li>
-                        <li id="tag-lowc" class="list-group-item"><h5>lowc</h5>Set any text whitin an html-element in lowercase.</li>
-                        <li id="tag-img-fit" class="list-group-item"><h5>img-fit</h5>This class can be added to the img-element. With this class you can set any ratio for an image without stretching the image, the image wil be contained within its frame and behave a bit like a background-iamge. So you won't have to use a div with a background-image, a container or manually crop the image in a photo-editor.</li>
-                        <li id="tag-img-clip" class="list-group-item">
-                            <h5>img-clip<div badge-tag-bug></div></h5>
-                            With this class you can use any backrgound as filling for text. Apply it directly to an element containing text. 
-                            <br>
-                            <br>
-                            Define the background image you want to use by using the style attribute or a css-file.
-                            <pre>
-                                <code>class="img-clip" style="background-image: url(images/background.jpg)"</code>
-                            </pre>
-                        </li>
-                        <li id="tag-toolip" class="list-group-item">
-                            <h5>tooltip-b</h5>
-                            Creates a tooltip relative to the html element.<br>
-                            Add the 'tooltip-b' class to the html-element and define the text inside the tooltip by adding an attribute 'data-tooltip="tooltip text here"'.
-                            <pre>
-                                <code>class="tooltip-b" data-tooltip="tooltip text here"</code>
-                            </pre>
-                        </li>
-                        <li id="tag-border-rd" class="list-group-item"><h5>border-rd</h5>Adds a border-radius.</li>
-                        <li id="tag-txt-align" class="list-group-item">
-                            <h5>txt-*</h5>
-                            Aligns text.<br>
-                            Second part: Use 'l' to align left, 'r' to align right, 'c' to align centered.
-                        </li>
+                        {% for tag in site.tags %}
+                            <li id="tag-{{ tag.class-name }}" class="list-group-item" data-bug="{{ tag.bug }}" data-scnd-part="{{ tag.scnd-part }}">
+                                <h5>{{ tag.full-name }}<div class="badge-tag-bug"></div><div class="badge-tag-scnd"></div></h5>
+                                {{ tag.content }}
+                                <small class="tag-edit-date uppc lspacing-1 txt-color-main mt-2 mb-0">version {% capture lastmod_date %}{% last_modified {{ post.path }} %}{% endcapture %}{{ lastmod_date | date: "%m.%d.%Y" }}</small>
+                            </li>
+                        {% endfor %}
                     </ul>
                 </div>
             </div>
@@ -328,6 +272,25 @@ lead: Now you added the javascript-file to your site you can start using it.
         </div>
     </div>
 </div>
+
+<script>
+    function searchTagsList() {
+        var input, filter, dl, dt, a, i, txtValue;
+        input = document.getElementById("search-list-tags");
+        filter = input.value.toUpperCase();
+        dl = document.getElementById("list-tags");
+        dt = dl.getElementsByTagName("dt");
+        for (i = 0; i < dt.length; i++) {
+            a = dt[i].getElementsByTagName("a")[0];
+            txtValue = a.textContent || a.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                dt[i].style.display = "";
+            } else {
+                dt[i].style.display = "none";
+            }
+        }
+    }
+</script>
 
 <!-- END OF CONTENT-->
 
