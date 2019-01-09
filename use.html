@@ -37,7 +37,26 @@ lead: Now you added the javascript-file to your site you can start using it.
                 <div class="list-group">
                     <h5>Tags / main part</h5>
                     {% for tag in site.tags %}
+                        {% if tag.url contains 'first-part' %}
                         <dt class="list-group-item"><a href="#tag-{{ tag.class-name }}">{{ tag.full-name }}<div style="display: none;">{{ tag.content }}</div></a></dt>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                <div class="list-group">
+                    <h5>Tags / second part</h5>
+                    <dt class="list-group-item"><a href="#tag-scnd-x">[main part]-x</a></dt>
+                    <dt class="list-group-item"><a href="#tag-scnd-y">[main part]-y</a></dt>
+                    <dt class="list-group-item"><a href="#tag-scnd-t">[main part]-t</a></dt>
+                    <dt class="list-group-item"><a href="#tag-scnd-b">[main part]-b</a></dt>
+                    <dt class="list-group-item"><a href="#tag-scnd-l">[main part]-l</a></dt>
+                    <dt class="list-group-item"><a href="#tag-scnd-r">[main part]-r</a></dt>
+                </div>
+                <div class="list-group">
+                    <h5>Tags / options</h5>
+                    {% for tag in site.tags %}
+                        {% if tag.url contains 'var-options' %}
+                        <dt class="list-group-item"><a href="#tag-{{ tag.class-name }}">{{ tag.class-name }}<div style="display: none;">{{ tag.content }}</div></a></dt>
+                        {% endif %}
                     {% endfor %}
                 </div>
             </dl>
@@ -52,11 +71,13 @@ lead: Now you added the javascript-file to your site you can start using it.
                     </p>
                     <ul class="list-group list-group-flush">
                         {% for tag in site.tags %}
+                            {% if tag.url contains 'first-part' %}
                             <li id="tag-{{ tag.class-name }}" class="list-group-item" data-bug="{{ tag.bug }}" data-scnd-part="{{ tag.scnd-part }}">
                                 <h5>{{ tag.full-name }}<div class="badge-tag-bug"></div><div class="badge-tag-scnd"></div></h5>
                                 {{ tag.content }}
                                 <small class="tag-edit-date uppc lspacing-1 txt-color-main mt-2 mb-0">version {% capture lastmod_date %}{% last_modified {{ post.path }} %}{% endcapture %}{{ lastmod_date | date: "%m.%d.%Y" }}</small>
                             </li>
+                            {% endif %}
                         {% endfor %}
                     </ul>
                 </div>
@@ -134,48 +155,15 @@ lead: Now you added the javascript-file to your site you can start using it.
                         Every setting has a description and how you can change it.
                     </p>
                     <ul class="list-group list-group-flush">
-                        <li id="option-collapse-trans-time" class="list-group-item">
-                            <h5>Transitiontime of collapse</h5>
-                            <pre>
-                                <code>--collapse-trans-time: 0.3s;</code>
-                            </pre>
-                            <p>Can be set in seconds [Xs], inherit or initial.</p>
-                        </li>
-                        <li id="option-tooltip-trans-time" class="list-group-item">
-                            <h5>Transitiontime of tooltips</h5>
-                            <pre>
-                                <code>--tooltip-trans-time: 0.2s;</code>
-                            </pre>
-                            <p>Can be set in seconds [Xs], inherit or initial.</p>
-                        </li>
-                        <li id="option-tooltip-bg-color" class="list-group-item">
-                            <h5>Background-color of tooltips</h5>
-                            <pre>
-                                <code>--tooltip-bg-color: #3D3D3D;</code>
-                            </pre>
-                            <p>Can be set to a color (predefined color names, hexadecimal colors, rgb & rgba colors and hsl & hsla colors), transparent, inherit or initial.</p>
-                        </li>
-                        <li id="option-tooltip-color" class="list-group-item">
-                            <h5>Textcolor of tooltips</h5>
-                            <pre>
-                                <code>--tooltip-color: white;</code>
-                            </pre>
-                            <p>Can be set to a color (predefined color names, hexadecimal colors, rgb & rgba colors and hsl & hsla colors), transparent, inherit or initial.</p>
-                        </li>
-                        <li id="option-border-radius" class="list-group-item">
-                            <h5>Border radius of elements with 'border-rd'-class</h5>
-                            <pre>
-                                <code>--border-radius: 6px;</code>
-                            </pre>
-                            <p>Can be set to a length [Xs], percentages [X%], inherit or initial.</p>
-                        </li>
-                        <li id="option-disabled-fade" class="list-group-item">
-                            <h5>Fading of disabled element with 'disabled'-class</h5>
-                            <pre>
-                                <code>--disabled-fade: 0.6;</code>
-                            </pre>
-                            <p>Can be set to a number between 1 and 0. The number describes how much of the element is still visible, not how much it's faded.<br>Example: the number 0.5 will fade the object for 50%, but 0.25 will fade it for 75%.</p>
-                        </li>
+                        {% for tag in site.tags %}
+                            {% if tag.url contains 'var-options' %}
+                                <li id="option-{{ tag.class-name }}" class="list-group-item">
+                                    <h5>{{ tag.full-name }}</h5>
+                                    {{ tag.content }}
+                                    <small class="tag-edit-date uppc lspacing-1 txt-color-main mt-2 mb-0">version {% capture lastmod_date %}{% last_modified {{ post.path }} %}{% endcapture %}{{ lastmod_date | date: "%m.%d.%Y" }}</small>
+                                </li>
+                            {% endif %}
+                        {% endfor %}
                     </ul>
                 </div>
             </div>

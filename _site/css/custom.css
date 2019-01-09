@@ -250,10 +250,6 @@ body > nav > button {
 }
 
     /* COMING SOON */
-    #coming-soon {
-        margin-top: 3rem;
-    }
-
     #coming-soon > .card-header {
         color: #007bff;
         user-select: none;
