@@ -75,7 +75,6 @@ lead: Now you added the javascript-file to your site you can start using it.
                             <li id="tag-{{ tag.class-name }}" class="list-group-item" data-bug="{{ tag.bug }}" data-scnd-part="{{ tag.scnd-part }}">
                                 <h5>{{ tag.full-name }}<div class="badge-tag-bug"></div><div class="badge-tag-scnd"></div></h5>
                                 {{ tag.content }}
-                                <small class="tag-edit-date uppc lspacing-1 txt-color-main mt-2 mb-0">version {% capture lastmod_date %}{% last_modified {{ post.path }} %}{% endcapture %}{{ lastmod_date | date: "%m.%d.%Y" }}</small>
                             </li>
                             {% endif %}
                         {% endfor %}
