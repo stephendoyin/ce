@@ -37,17 +37,6 @@
 	
 	/* Fading of disabled element with 'disabled'-class */
 	--disabled-fade: 0.6;
-
-	/* Accent colors for text and background-colors */
-	--accent-main: #000;
-	--accent-2: #000;
-	--accent-3: #000;
-	--accent-4: #000;
-	--accent-5: #000;
-	--accent-6: #000;
-	--accent-7: #000;
-	--accent-8: #000;
-	--accent-9: #000;
 }
 
 /* STATUS */
