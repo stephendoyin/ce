@@ -61,7 +61,7 @@ lead: Now you added the javascript-file to your site you can start using it.
                 </div>
             </dl>
         </div>
-        <div class="col col-12 col-lg-9">
+        <div class="col col-12 col-lg-9" id="tags">
             <div class="row">
                 <div id="tags-first" class="col-md">
                     <h3>Tags / main part</h3>
@@ -69,16 +69,22 @@ lead: Now you added the javascript-file to your site you can start using it.
                         Most css-classes have diffrent parts in it's name.<br>
                         The main part defines the characteristics that need to change of a html-element.
                     </p>
-                    <ul class="list-group list-group-flush">
+                    <div class="card-columns">
                         {% for tag in site.tags %}
                             {% if tag.url contains 'first-part' %}
-                            <li id="tag-{{ tag.class-name }}" class="list-group-item" data-bug="{{ tag.bug }}" data-scnd-part="{{ tag.scnd-part }}">
-                                <h5>{{ tag.full-name }}<div class="badge-tag-bug"></div><div class="badge-tag-scnd"></div></h5>
-                                {{ tag.content }}
-                            </li>
+                                <div id="tag-{{ tag.class-name }}" class="card" data-bug="{{ tag.bug }}" data-scnd-part="{{ tag.scnd-part }}">
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{ tag.full-name }}</h5>
+                                        {{ tag.content }}
+                                    </div>
+                                    <div class="card-links">
+                                            <a href="#" class="card-link txt-sm">learn more</a>
+                                            <a href="#" class="card-link txt-sm"><strong>copy code</strong></a>
+                                        </div>
+                                </div>
                             {% endif %}
                         {% endfor %}
-                    </ul>
+                    </div>
                 </div>
             </div>
             <div class="row">
