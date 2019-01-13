@@ -11,17 +11,26 @@ sections:
   label: Posts
   create: all
 - type: heading
-  label: COLLECTIONS
-- type: directory
-  path: _tags
-  label: Tags
-  create: all
-  match: "**/*"
+  label: Library
 - type: directory
   path: _lib-tags-first
   label: Tags first
   create: all
   match: "**/*"
+- type: directory
+  path: _lib-var-options
+  label: CSS variables
+  create: all
+  match: "**/*"
+  templates:
+  - tag-tag
+- type: directory
+  path: _lib-fonts
+  label: Fonts
+  create: all
+  match: "**/*"
+  templates:
+  - tags-font
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
