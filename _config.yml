@@ -30,7 +30,11 @@ plugins:
   - jekyll-coffeescript
 
 collections:
-  tags:
+  lib-tags-first:
+    output: true
+  lib-var-options:
+    output: true
+  lib-fonts:
     output: true
 
 # Exclude from processing.

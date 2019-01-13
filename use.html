@@ -36,10 +36,8 @@ lead: Now you added the javascript-file to your site you can start using it.
             <dl id="list-tags">
                 <div class="list-group">
                     <h5>Tags / main part</h5>
-                    {% for tag in site.tags %}
-                        {% if tag.url contains 'first-part' %}
+                    {% for tag in site.lib-tags-first %}
                         <dt class="list-group-item"><a href="#tag-{{ tag.class-name }}">{{ tag.full-name }}<div style="display: none;">{{ tag.content }}</div></a></dt>
-                        {% endif %}
                     {% endfor %}
                 </div>
                 <div class="list-group">
@@ -53,10 +51,8 @@ lead: Now you added the javascript-file to your site you can start using it.
                 </div>
                 <div class="list-group">
                     <h5>Tags / options</h5>
-                    {% for tag in site.tags %}
-                        {% if tag.url contains 'var-options' %}
+                    {% for tag in site.lib-var-options %}
                         <dt class="list-group-item"><a href="#tag-{{ tag.class-name }}">{{ tag.class-name }}<div style="display: none;">{{ tag.content }}</div></a></dt>
-                        {% endif %}
                     {% endfor %}
                 </div>
             </dl>
@@ -70,8 +66,7 @@ lead: Now you added the javascript-file to your site you can start using it.
                         The main part defines the characteristics that need to change of a html-element.
                     </p>
                     <div class="card-columns">
-                        {% for tag in site.tags %}
-                            {% if tag.url contains 'first-part' %}
+                        {% for tag in site.lib-tags-first %}
                                 <div id="tag-{{ tag.class-name }}" class="card" data-bug="{{ tag.bug }}" data-scnd-part="{{ tag.scnd-part }}">
                                     <div class="card-body">
                                         <h5 class="card-title">{{ tag.full-name }}</h5>
@@ -82,7 +77,6 @@ lead: Now you added the javascript-file to your site you can start using it.
                                         <button class="card-link copy-code txt-sm d-none" data-clipboard-action="cut" data-clipboard-target="#bar"><strong>copy code</strong></a>
                                     </div>
                                 </div>
-                            {% endif %}
                         {% endfor %}
                     </div>
                 </div>
@@ -160,13 +154,11 @@ lead: Now you added the javascript-file to your site you can start using it.
                         Every setting has a description and how you can change it.
                     </p>
                     <ul class="list-group list-group-flush">
-                        {% for tag in site.tags %}
-                            {% if tag.url contains 'var-options' %}
+                        {% for tag in site.lib-var-options %}
                                 <li id="option-{{ tag.class-name }}" class="list-group-item">
                                     <h5>{{ tag.full-name }}</h5>
                                     {{ tag.content }}
                                 </li>
-                            {% endif %}
                         {% endfor %}
                     </ul>
                 </div>
@@ -181,13 +173,11 @@ lead: Now you added the javascript-file to your site you can start using it.
                     </p>
                     <h5>Supported fonts</h5>
                     <ul class="list-group list-group-flush">
-                        {% for tag in site.tags %}
-                            {% if tag.url contains 'fonts' %}
-                                <li id="font-{{ tag.class-name }}" class="list-group-item">
-                                    <h5>{{ tag.full-name }}</h5>
-                                    {{ tag.content }}
-                                </li>
-                            {% endif %}
+                        {% for tag in site.lib-fonts %}
+                            <li id="font-{{ tag.class-name }}" class="list-group-item">
+                                <h5>{{ tag.full-name }}</h5>
+                                {{ tag.content }}
+                            </li>
                         {% endfor %}
                     </ul>
                 </div>
