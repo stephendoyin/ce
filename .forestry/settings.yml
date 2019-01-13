@@ -11,7 +11,7 @@ sections:
   label: Posts
   create: all
 - type: heading
-  label: C O L L E C T I O N S
+  label: COLLECTIONS
 - type: directory
   path: _tags
   label: Tags
