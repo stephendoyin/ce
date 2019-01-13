@@ -2,7 +2,7 @@
 full-name: no-margin
 class-name: no-margin
 scnd-part: true
-bug: false
+bug: true
 ---
 Removes any margin of an element.
 
