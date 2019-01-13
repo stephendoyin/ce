@@ -17,6 +17,11 @@ sections:
   label: Tags
   create: all
   match: "**/*"
+- type: directory
+  path: _lib-tags-first
+  label: Tags first
+  create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
