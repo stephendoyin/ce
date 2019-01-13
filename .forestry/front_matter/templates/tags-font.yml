@@ -1,5 +1,5 @@
 ---
-label: tags/font
+label: Library font
 hide_body: false
 is_partial: false
 fields:
@@ -76,4 +76,3 @@ fields:
   - type: boolean
     name: black_900_italic
     label: black 900 italic
-- type: field_group_list
