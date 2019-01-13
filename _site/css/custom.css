@@ -280,11 +280,14 @@ body > nav > button {
   margin-bottom: 2rem; }
 
 /* USE OF TAGS */
+#tags div.card-columns {
+  column-count: 2;
+  column-gap: 30px; }
+
 #tags div .card {
   position: relative;
-  margin-bottom: 15px;
-  flex-basis: 45%;
-  margin: 15px;
+  margin: 15px 0px;
+  /* max-width: calc(50% - 60px); */
   min-height: 220px;
   overflow-y: hidden;
   border-color: #007bff; }
@@ -298,6 +301,15 @@ body > nav > button {
   width: 100%;
   background-color: #EDF5FE;
   padding: 15px; }
+
+#tags div .card .card-links button {
+  appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  padding: 0px;
+  background: none;
+  cursor: pointer;
+  color: #007bff; }
 
 /* TAG SEARCH */
 #list-tags > div > dt {
