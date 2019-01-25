@@ -21,3 +21,5 @@ fields:
 - type: boolean
   name: bug
   label: contains bug
+pages:
+- _lib-tags-first/disable.md
