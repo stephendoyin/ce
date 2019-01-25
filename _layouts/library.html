@@ -88,18 +88,28 @@ layout: default
         </div>
     </div>
     <div class="row">
-        <div class="col">
-            <div class="PageNavigation">
+        <div class="col offset-lg-4">
+            <div class="PageNavigation mt-3">
                 {% if page.previous.url %}
-                    <a class="prev" href="{{page.previous.url}}">
-                        <h3 class="mb-0">{{ page.previous.title }}</h3>
-                        <p class="mb-0">{{ page.previous.about }}</p>
+                    <a class="prev d-flex flex-row align-items-center" href="{{page.previous.url}}">
+                        <div>
+                            <i data-feather="arrow-left"></i>
+                        </div>
+                        <div>
+                            <h5 class="mb-0">{{ page.previous.title }}</h5>
+                            <p class="mb-0">{{ page.previous.about-short }}</p>
+                        </div>
                     </a>
                 {% endif %}
                 {% if page.next.url %}
-                    <a class="next" href="{{page.next.url}}">
-                        <h3 class="mb-0">{{ page.next.title }}</h3>
-                        <p class="mb-0">{{ page.next.about }}</p>
+                    <a class="next d-flex flex-row align-items-center" href="{{page.next.url}}">
+                        <div>
+                            <h5 class="mb-0">{{ page.next.title }}</h5>
+                            <p class="mb-0">{{ page.next.about-short }}</p>
+                        </div>
+                        <div>
+                            <i data-feather="arrow-right"></i>
+                        </div>
                     </a>
                 {% endif %}
             </div>
@@ -111,7 +121,7 @@ layout: default
                     width: auto;
                     overflow: hidden;
                     background-color: #007bff13;
-                    padding: 15px;
+                    padding: 15px 0px;
                     border-radius: .25rem;
                 }
 
@@ -126,6 +136,21 @@ layout: default
                     white-space: nowrap;
                     text-overflow: ellipsis;
                     margin-bottom: 0px;
+                }
+
+                .PageNavigation svg {
+                    margin: 12px; 
+                    transition: 0.2s transform ease-in-out;
+                }
+
+                .PageNavigation a.prev:hover svg {
+                    transform: translateX(-2px);
+                    transition: 0.2s transform ease-in-out;
+                }
+
+                .PageNavigation a.next:hover svg {
+                    transform: translateX(2px);
+                    transition: 0.2s transform ease-in-out;
                 }
 
                 .PageNavigation .next {

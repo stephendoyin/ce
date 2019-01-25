@@ -41,7 +41,7 @@ pre code{
     margin-bottom: 0px;
 }
 
-h1, h3, h6  {
+h1, h2, h3, h4, h5, h6  {
     font-family: 'Wavehaus' !important;
     font-weight: 600;
 }
@@ -56,12 +56,12 @@ a {
     text-decoration: none !important;
 }
 
-a > svg.feather {
+[id*="resource"] a > svg.feather {
     margin-left: 5px;
     transition: 0.2s transform ease-in-out;
 }
 
-a:hover > svg.feather {
+[id*="resource"] a:hover > svg.feather {
     transform: translateY(2px);
     transition: 0.2s transform ease-in-out;
 }
