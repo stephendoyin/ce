@@ -19,7 +19,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   A simple library of css-classes supported by some javascript, making websites easier.
 # baseurl: "/ce.lennertderyck.be" # the subpath of your site, e.g. /blog
 url: "ce.lennertderyck.be" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: lennertderyck
 github_username: lennertderyck
 
 # Build settings
@@ -32,10 +31,31 @@ plugins:
 collections:
   lib-tags-first:
     output: true
+    layout: page
   lib-var-options:
     output: true
+    layout: page
   lib-fonts:
     output: true
+    layout: page
+
+defaults:
+  - scope:
+      path: ""
+      type: "lib-tags-first"
+    values:
+      layout: "library"
+  - scope:
+      path: ""
+      type: "lib-var-options"
+    values:
+      layout: "library"
+  - scope:
+      path: ""
+      type: "lib-fonts"
+    values:
+      layout: "library"
+      
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
