@@ -7,6 +7,6 @@ bug: false
 for_development:
   layout: ''
   excerpt_separator: ''
+about_about: Disable an element
 
 ---
-    class="{{ page.class-name }}"
