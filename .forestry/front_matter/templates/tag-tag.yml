@@ -24,6 +24,17 @@ fields:
 - type: boolean
   name: bug
   label: contains bug
+- type: field_group
+  name: for_development
+  label: FOR DEVELOPMENT
+  hidden: true
+  fields:
+  - type: text
+    name: excerpt_separator
+    label: excerpt separator
+    default: "<!--more-->"
+    description: Settings for developers
+    hidden: true
 pages:
 - _lib-tags-first/disable.md
 - _lib-tags-first/img-fit.md
