@@ -13,5 +13,3 @@ for_development:
 
 ---
     class="{{ page.class-name }}"
-
-<!--more-->
