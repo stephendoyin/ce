@@ -30,11 +30,17 @@ fields:
   hidden: true
   fields:
   - type: text
+    name: layout
+    label: Layout
+    description: Layout of the page
+    hidden: false
+    default: library
+  - type: text
     name: excerpt_separator
     label: excerpt separator
     default: "<!--more-->"
     description: ''
-    hidden: true
+    hidden: false
   description: Settings for developers
 pages:
 - _lib-tags-first/disable.md
