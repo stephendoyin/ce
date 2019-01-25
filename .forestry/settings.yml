@@ -17,6 +17,8 @@ sections:
   label: Tags first
   create: all
   match: "**/*"
+  templates:
+  - tag-tag
 - type: directory
   path: _lib-var-options
   label: CSS variables

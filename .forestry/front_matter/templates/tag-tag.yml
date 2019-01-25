@@ -23,3 +23,4 @@ fields:
   label: contains bug
 pages:
 - _lib-tags-first/disable.md
+- _lib-tags-first/img-fit.md
