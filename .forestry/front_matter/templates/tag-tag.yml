@@ -1,0 +1,23 @@
+---
+label: Library tag
+hide_body: false
+is_partial: false
+fields:
+- name: full-name
+  label: Full name
+  type: text
+  hidden: false
+  default: ''
+- name: class-name
+  label: Class name
+  type: text
+  hidden: false
+  default: ''
+- name: scnd-part
+  label: Second part support
+  type: boolean
+  hidden: false
+  default: false
+- type: boolean
+  name: bug
+  label: contains bug
