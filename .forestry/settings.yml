@@ -22,14 +22,14 @@ sections:
 - type: directory
   path: _lib-var-options
   label: CSS variables
-  create: all
+  create: documents
   match: "**/*"
   templates:
   - tag-tag
 - type: directory
   path: _lib-fonts
   label: Fonts
-  create: all
+  create: documents
   match: "**/*"
   templates:
   - tags-font
