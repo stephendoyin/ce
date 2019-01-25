@@ -8,5 +8,3 @@ about: |-
 
 ---
     class="{{ page.class-name }}-" style="background-image: url(images/background.jpg)"
-
-<!--more-->
