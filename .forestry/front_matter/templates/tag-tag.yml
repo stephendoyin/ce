@@ -26,15 +26,16 @@ fields:
   label: contains bug
 - type: field_group
   name: for_development
-  label: FOR DEVELOPMENT
+  label: DEVELOPMENT
   hidden: true
   fields:
   - type: text
     name: excerpt_separator
     label: excerpt separator
     default: "<!--more-->"
-    description: Settings for developers
+    description: ''
     hidden: true
+  description: Settings for developers
 pages:
 - _lib-tags-first/disable.md
 - _lib-tags-first/img-fit.md
