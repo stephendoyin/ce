@@ -9,10 +9,31 @@ layout: default
 <div class="container">
     <div class="row">
         <div class="col-4">
-            <h4>{{ page.full-name }}</h4>
-            {{ content }}
+            <h3>{{ page.full-name }}</h3>
+            <p>
+                Second-part support: {{ page.scnd-part }}
+                Contains bug: 
+            </p>
+            <br>
+            <dl id="list-tags">
+                <div class="list-group">
+                    <h5>More tags</h5>
+                    {% for tag in site.lib-tags-first %}
+                        <dt class="list-group-item"><a href="#tag-{{ tag.class-name }}">{{ tag.full-name }}<div style="display: none;">{{ tag.content }}</div></a></dt>
+                    {% endfor %}
+                </div>
+            </dl>
         </div>
         <div class="col-8">
+            <p>{{ page.about }}</p>
+            <div class="highlighter-rouge">
+                <div class="highlight">
+                    <pre class="highlight">
+                        <code>class="{{ page.class-name }}"</code>
+                    </pre>
+                </div>
+            </div>
+
             <div id="snippets-scnd-part" data-scnd-part="{{ page.scnd-part }}">
                 <div class="highlighter-rouge">
                     <div class="highlight">

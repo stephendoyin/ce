@@ -6,4 +6,3 @@ scnd-part: false
 bug: false
 
 ---
-class="{{ page.class-name }}"
