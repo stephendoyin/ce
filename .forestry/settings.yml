@@ -15,7 +15,7 @@ sections:
 - type: directory
   path: _lib-tags-first
   label: Tags first
-  create: all
+  create: documents
   match: "**/*"
   templates:
   - tag-tag
