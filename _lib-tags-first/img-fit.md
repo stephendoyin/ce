@@ -10,6 +10,6 @@ about: This class can be added to the img-element. With this class you can set a
 for_development:
   layout: ''
   excerpt_separator: ''
+about_about: Scale images without stretching them
 
 ---
-    class="{{ page.class-name }}"
