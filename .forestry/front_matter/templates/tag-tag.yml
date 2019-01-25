@@ -13,6 +13,9 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: textarea
+  name: about
+  label: About
 - name: scnd-part
   label: Second part support
   type: boolean
