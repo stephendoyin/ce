@@ -71,7 +71,14 @@ lead: Now you added the javascript-file to your site you can start using it.
                                 <div id="tag-{{ tag.class-name }}" class="card collapse" data-bug="{{ tag.bug }}" data-scnd-part="{{ tag.scnd-part }}">
                                     <div class="card-body">
                                         <h5 class="card-title">{{ tag.full-name }}</h5>
-                                        {{ tag.content }}
+                                        {{ tag.about }}
+                                        <div class="highlighter-rouge">
+                                            <div class="highlight">
+                                                <pre class="highlight">
+                                                    <code>class="{{ tag.class-name }}"</code>
+                                                </pre>
+                                            </div>
+                                        </div>
                                     </div>
                                     <div class="card-links">
                                         <a href="{{ tag.url }}" class="card-link txt-sm">TAG URL</a>

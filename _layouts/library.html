@@ -8,23 +8,30 @@ layout: default
 </div>
 <div class="container">
     <div class="row">
-        <div class="col-4">
+        <div class="col-12">
             <h3>{{ page.full-name }}</h3>
+        </div>
+        <div class="col-12 col-md-4">
             <p>
-                Second-part support: {{ page.scnd-part }}
-                Contains bug: 
+                <strong class="subtitle">Second-part support</strong> {{ page.scnd-part }}<br>
+                <strong class="subtitle">Containing bugs</strong> {{ page.bug }}<br>
             </p>
+            <small class="last-edited">
+                <span>last edited</span>
+                {% include last-edited.html %}
+            </small>
+                   
             <br>
-            <dl id="list-tags">
+            <!-- <dl id="list-tags">
                 <div class="list-group">
                     <h5>More tags</h5>
                     {% for tag in site.lib-tags-first %}
                         <dt class="list-group-item"><a href="#tag-{{ tag.class-name }}">{{ tag.full-name }}<div style="display: none;">{{ tag.content }}</div></a></dt>
                     {% endfor %}
                 </div>
-            </dl>
+            </dl>-->
         </div>
-        <div class="col-8">
+        <div class="col-12 col-md-8">
             <p>{{ page.about }}</p>
             <div class="highlighter-rouge">
                 <div class="highlight">
