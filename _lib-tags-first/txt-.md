@@ -1,10 +1,10 @@
 ---
 full-name: txt-*
 class-name: txt-
----
-Aligns text.
-Second part: Use 'l' to align left, 'r' to align right, 'c' to align centered.
+about: "Align text. \n\nSecond part: Use 'l' to align left, 'r' to align right, 'c'
+  to align centered."
+about_about: Align text
+scnd-part: false
+bug: false
 
-```
-class="{{ page.class-name }}"
-```
+---
