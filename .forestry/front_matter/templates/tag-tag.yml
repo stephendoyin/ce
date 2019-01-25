@@ -14,7 +14,7 @@ fields:
   hidden: false
   default: ''
 - type: text
-  name: about_about
+  name: about-short
   label: Short description
   config:
     required: true
