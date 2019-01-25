@@ -87,4 +87,51 @@ layout: default
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col">
+            <div class="PageNavigation">
+                {% if page.previous.url %}
+                    <a class="prev" href="{{page.previous.url}}">
+                        <h3 class="mb-0">{{ page.previous.title }}</h3>
+                        <p class="mb-0">{{ page.previous.about }}</p>
+                    </a>
+                {% endif %}
+                {% if page.next.url %}
+                    <a class="next" href="{{page.next.url}}">
+                        <h3 class="mb-0">{{ page.next.title }}</h3>
+                        <p class="mb-0">{{ page.next.about }}</p>
+                    </a>
+                {% endif %}
+            </div>
+            <style>
+                .PageNavigation {
+                    font-size: 14px;
+                    display: flex;
+                    justify-content: space-between;
+                    width: auto;
+                    overflow: hidden;
+                    background-color: #007bff13;
+                    padding: 15px;
+                    border-radius: .25rem;
+                }
+
+                .PageNavigation a {
+                    display: block;
+                }
+
+                .PageNavigation p {
+                    max-height: 20px;
+                    max-width: 310px;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    text-overflow: ellipsis;
+                    margin-bottom: 0px;
+                }
+
+                .PageNavigation .next {
+                    text-align: right;
+                }
+            </style>
+        </div>
+    </div>
 </div>

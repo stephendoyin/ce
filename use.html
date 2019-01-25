@@ -71,7 +71,9 @@ lead: Now you added the javascript-file to your site you can start using it.
                                 <div id="tag-{{ tag.class-name }}" class="card" data-bug="{{ tag.bug }}" data-scnd-part="{{ tag.scnd-part }}">
                                     <div class="card-body">
                                         <h5 class="card-title">{{ tag.full-name }}</h5>
-                                        {{ tag.about }}
+                                        <p>
+                                            {{ tag.about }}
+                                        </p>
                                         <div class="highlighter-rouge">
                                             <div class="highlight">
                                                 <pre class="highlight">

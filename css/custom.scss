@@ -83,6 +83,12 @@ a:hover > svg.feather {
     // color: var(--accent-main);
 }
 
+.txt-sm {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+}
+
 small.last-edited {
     display: block;
     background-color: #007bff13;
@@ -374,17 +380,13 @@ body > nav > button {
         position: relative;
         margin: 15px 0px;
         /* max-width: calc(50% - 60px); */
-        min-height: 220px;
+        // min-height: 220px;
         height: unset !important;
         overflow-y: hidden;
         border-color: #007bff;
     }
 
     /* COLLAPSE */
-        #tags div .card.collapse.show .card-body > p {
-            white-space: unset;
-        }
-
         #tags div .card p {
             white-space: nowrap; 
             overflow: hidden;
