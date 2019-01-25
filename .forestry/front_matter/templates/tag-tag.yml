@@ -16,6 +16,10 @@ fields:
 - type: textarea
   name: about
   label: About
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - name: scnd-part
   label: Second part support
   type: boolean
