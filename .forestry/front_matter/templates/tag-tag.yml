@@ -54,6 +54,7 @@ fields:
     hidden: false
   description: Settings for developers
 - type: text
+- type: blocks
 pages:
 - _lib-tags-first/disable.md
 - _lib-tags-first/img-fit.md
