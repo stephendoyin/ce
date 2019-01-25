@@ -350,8 +350,14 @@ body > nav > button {
         margin: 15px 0px;
         /* max-width: calc(50% - 60px); */
         min-height: 220px;
+        height: unset !important;
         overflow-y: hidden;
         border-color: #007bff;
+    }
+
+    /* COLLAPSE */
+    #tags div .card.collapse.show .card-body > p {
+        white-space: unset;
     }
 
     #tags div .card p {
@@ -374,6 +380,10 @@ body > nav > button {
         background: none;
         cursor: pointer;
         color: #007bff;
+    }
+
+    #tags div .card .card-link+.card-link {
+        margin-left: 0px;
     }
 
         /* TAG SEARCH */

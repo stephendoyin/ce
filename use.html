@@ -67,13 +67,16 @@ lead: Now you added the javascript-file to your site you can start using it.
                     </p>
                     <div class="card-columns">
                         {% for tag in site.lib-tags-first %}
-                                <div id="tag-{{ tag.class-name }}" class="card" data-bug="{{ tag.bug }}" data-scnd-part="{{ tag.scnd-part }}">
+                                <div id="tag-{{ tag.class-name }}" class="card collapse" data-bug="{{ tag.bug }}" data-scnd-part="{{ tag.scnd-part }}">
                                     <div class="card-body">
                                         <h5 class="card-title">{{ tag.full-name }}</h5>
                                         {{ tag.content }}
                                     </div>
                                     <div class="card-links">
-                                        <a href="{{ tag.url }}" class="card-link txt-sm"><strong>learn more</strong></a>
+                                        <a href="{{ tag.url }}" class="card-link txt-sm d-none"></a>
+                                        <button class="card-link txt-sm" type="button" data-toggle="collapse" data-target="#tag-{{ tag.class-name }}" aria-expanded="false" aria-controls="tag-{{ tag.class-name }}">
+                                            <strong>learn more</strong>
+                                        </button>
                                         <button class="card-link copy-code txt-sm d-none" data-clipboard-action="cut" data-clipboard-target="#bar"><strong>copy code</strong></a>
                                     </div>
                                 </div>

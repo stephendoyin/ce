@@ -49,8 +49,8 @@ function collapse(div) {
 }
 
 // Add toggle function
-function toggle(div) {
-  div.classList.toggle("toggle-active");
+function toggle(this) {
+  this.classList.toggle("toggle-active");
   //div.classList.toggle("toggle-inact");
 }
 
