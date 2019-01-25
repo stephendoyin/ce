@@ -16,11 +16,22 @@ fields:
 - type: textarea
   name: about
   label: About
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - name: scnd-part
   label: Second part support
   type: boolean
   hidden: false
   default: false
+- type: textarea
+  name: second_parts
+  label: Second parts
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
 - type: boolean
   name: bug
   label: contains bug
@@ -42,6 +53,7 @@ fields:
     description: ''
     hidden: false
   description: Settings for developers
+- type: text
 pages:
 - _lib-tags-first/disable.md
 - _lib-tags-first/img-fit.md
