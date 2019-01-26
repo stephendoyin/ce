@@ -280,6 +280,7 @@ small.last-edited lastmod {
             box-shadow: none;
             outline: none;
             animation-duration: 0.5s;
+            transition-delay: 0.0s;
         }
 
         .navbar-toggler {
@@ -287,6 +288,7 @@ small.last-edited lastmod {
             animation-duration: 0.5s;
             z-index: 4000;
             border: none;
+            transition-delay: 0.0s;
         }
 
         .navbar-toggler:not(.collapsed) {
@@ -295,6 +297,7 @@ small.last-edited lastmod {
             position: fixed;
             top: 22px;
             right: 16px;
+            transition-delay: 0.2s;
         }
 
         .navbar-toggler-line {
@@ -302,20 +305,30 @@ small.last-edited lastmod {
             height: 3px;
             background-color: rgb(147, 151, 156);
             animation-duration: 0.5s;
+            transition-delay: 0.2s;
         }
 
         .navbar-toggler:not(.collapsed) .navbar-toggler-line.top {
             transform: rotate(-45deg) scaleX(0.6) translate(-17px, 7px);
             transform-origin: left;
             animation-duration: 0.5s;
+            transition-delay: 0.2s;
         }
 
         .navbar-toggler:not(.collapsed) .navbar-toggler-line.bottom {
             transform: rotate(45deg) scaleX(0.6) translate(-16px, -7px);
             transform-origin: left;
             animation-duration: 0.5s;
+            transition-delay: 0.2s;
         }
 
+        .navbar-toggler .navbar-toggler-line.top {
+            transition-delay: 0.0s;
+        }
+
+        .navbar-toggler .navbar-toggler-line.bottom {
+            transition-delay: 0.0s;
+        }
 #carousel-intro > a.carousel-control-prev, #carousel-intro > a.carousel-control-next {
     display: none;
 }
