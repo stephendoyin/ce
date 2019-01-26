@@ -196,6 +196,8 @@ small.last-edited lastmod {
             height: calc(100% - 0px);
             transform: translateX(0px);
             transition: 0.35s all ease-in-out;
+            // box-shadow: 0px 7px 22px 15px rgba(0,0,0,0.23);
+            border-left: 1px solid rgba(0,0,0,.125);
         }
 
         .navbar-collapse {
@@ -232,7 +234,7 @@ small.last-edited lastmod {
 
     .navbar-nav hr {
         width: 100%;
-        border-top: 2px solid #72757A;
+        border-top: 1px solid #CBD1D9;
         margin-bottom: 1.5rem;
     }
 
