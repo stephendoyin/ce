@@ -49,7 +49,7 @@ function collapse(div) {
 }
 
 // Add toggle function
-function toggle(this) {
+/* function toggle(this) {
   this.classList.toggle("toggle-active");
   //div.classList.toggle("toggle-inact");
 }
@@ -63,4 +63,4 @@ function addToggle() {
 function removeToggle() {
   var element = document.getElementsByClassName("toggle-active");
   element.classList.remove("toggle-active");
-}
+} */
