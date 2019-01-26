@@ -181,8 +181,16 @@ small.last-edited lastmod {
 .navbar-nav {
   font-family: 'Wavehaus';
   font-weight: 600;
-  font-size: 2.5rem;
   letter-spacing: 2px; }
+
+.navbar-nav hr {
+  width: 100%;
+  border-top: 2px solid #72757A;
+  margin-bottom: 1.5rem; }
+
+.navbar-nav h5 {
+  text-transform: uppercase;
+  letter-spacing: 3px; }
 
 .menu-float {
   z-index: 3000; }
