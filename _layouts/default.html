@@ -30,13 +30,15 @@
         <a class="navbar-brand mr-auto" href="{{ site.baseurl }}/">
             <img class="no-save" src="{{ site.baseurl }}/images/LOGO_CUSTOM_ELEMENTS.svg">
         </a>
+        <a class="btn btn-outline-primary btn-lg d-none d-sm-block mr-3" href="{{ site.baseurl }}/get-started#get-started" role="button">Get started</a>
         <div class="menu-float d-flex">
-            <a class="btn btn-outline-primary btn-lg d-none d-sm-block mr-3" href="{{ site.baseurl }}/get-started#get-started" role="button">Get started</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
         </div>
+            <button class="navbar-toggler collapsed" id="NavToggle" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="navbar-toggler-line top"></div>
+                <div class="navbar-toggler-line middle my-2"></div>
+                <div class="navbar-toggler-line bottom"></div>
+            </button>
+        <div id="SiteContentFilter" class="overlay-filter" onclick="HideNavOnClick()"></div>
         <div id="site-dev-warning" class="animated bounce" onclick="toggle(this)">
             <p class="no-margin"><i data-feather="alert-octagon"></i>This site and its content are still in development</p>
         </div>
@@ -53,7 +55,7 @@
                 <h1><a class="nav-link" href="https://github.com/lennertderyck/ce" rel="noopener" target="_blank">Github</a></h1>
             </li>
             <hr>
-            <li class="nav-item">
+            <li class="nav-item d-none">
                 <h5><a class="nav-link disabled" href="{{ site.baseurl }}/resources">Resources</a></h5>
             </li>
             <li class="nav-item">
@@ -119,6 +121,13 @@
     <!-- Optional JavaScript -->
     <script>
         feather.replace()
+    </script>
+
+    <script>
+        function HideNavOnClick() {
+            var NavToggle = document.getElementById("NavToggle")
+            NavToggle.click();
+        }
     </script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -191,7 +191,7 @@ small.last-edited lastmod {
             padding: 30px;
             padding-top: 76px;
             text-align: right;
-            z-index: 1000;
+            z-index: 3000;
             background: #E7EFF9;
             height: calc(100% - 0px);
             transform: translateX(0px);
@@ -216,6 +216,25 @@ small.last-edited lastmod {
             transform: translateX(145px);
         } */
 
+    /* OVERLAY FILTER */
+        .overlay-filter {
+            display: none;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.349);
+            z-index: 2000;
+            transition-delay: 3s;
+        }
+
+        .navbar-toggler:not(.collapsed) + .overlay-filter{
+            display: initial;
+            transition-delay: 3s;
+        }
+
+
     .navbar-brand {
         user-select: none;
     }
@@ -230,6 +249,11 @@ small.last-edited lastmod {
         // font-size: 2.5rem;
         letter-spacing: 2px;
         // text-transform: uppercase;
+    }
+
+    .navbar-nav li a {
+        width: fit-content;
+        margin-left: auto;
     }
 
     .navbar-nav hr {
@@ -250,6 +274,47 @@ small.last-edited lastmod {
     .menu-float .navbar-toggler {
         border: none;
     }
+
+    /* NAVBAR TOGGLER */
+        .navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active{
+            box-shadow: none;
+            outline: none;
+            animation-duration: 0.5s;
+        }
+
+        .navbar-toggler {
+            transform: scale(0.8);
+            animation-duration: 0.5s;
+            z-index: 4000;
+            border: none;
+        }
+
+        .navbar-toggler:not(.collapsed) {
+            transform: rotate(180deg) scale(0.8);
+            animation-duration: 0.5s;
+            position: fixed;
+            top: 22px;
+            right: 16px;
+        }
+
+        .navbar-toggler-line {
+            width: 40px;
+            height: 3px;
+            background-color: rgb(147, 151, 156);
+            animation-duration: 0.5s;
+        }
+
+        .navbar-toggler:not(.collapsed) .navbar-toggler-line.top {
+            transform: rotate(-45deg) scaleX(0.6) translate(-17px, 7px);
+            transform-origin: left;
+            animation-duration: 0.5s;
+        }
+
+        .navbar-toggler:not(.collapsed) .navbar-toggler-line.bottom {
+            transform: rotate(45deg) scaleX(0.6) translate(-16px, -7px);
+            transform-origin: left;
+            animation-duration: 0.5s;
+        }
 
 #carousel-intro > a.carousel-control-prev, #carousel-intro > a.carousel-control-next {
     display: none;
