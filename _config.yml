@@ -13,6 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+# Site settings
+# ─────────────
+baseurl: # the subpath of your site, e.g. /blog
+host   : 127.0.0.1
+port   : 5000
+
 title: Custom elements
 email: hello@lennertderyck.be
 description: >- # this means to ignore newlines until "baseurl:"
