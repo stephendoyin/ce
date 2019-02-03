@@ -364,6 +364,36 @@
 	font-family: var(--font-scnd) !important;
 }
 
+/* FONT WEIGHT */
+.fontw-100 {
+	font-weight: 100 !important;
+}
+.fontw-200 {
+	font-weight: 200 !important;
+}
+.fontw-300 {
+	font-weight: 300 !important;
+}
+.fontw-400 {
+	font-weight: 400 !important;
+}
+.fontw-500 {
+	font-weight: 500 !important;
+}
+.fontw-600 {
+	font-weight: 600 !important;
+}
+.fontw-700 {
+	font-weight: 700 !important;
+}
+.fontw-800 {
+	font-weight: 800 !important;
+}
+.fontw-900 {
+	font-weight: 900 !important;
+}
+
+
 /* DISPLAY NONE */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
