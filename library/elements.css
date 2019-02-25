@@ -217,7 +217,7 @@
 	padding-right: 0px !important;
 }
 
-.rounded {
+.rounded, .bd-radius {
 	border-radius: 120px !important;
 }
 
