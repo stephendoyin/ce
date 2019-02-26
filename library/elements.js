@@ -11,7 +11,7 @@ function addCSSMain(filename){
     head.append(style);
 }
 
-addCSSOptions('style.css');
+// addCSSOptions('style.css');
 
 // Include CSS file options
 /* function addCSSOptions(filename){
