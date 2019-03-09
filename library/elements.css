@@ -393,6 +393,57 @@
 	font-weight: 900 !important;
 }
 
+/* ELEMENTS SCALE */
+
+.scale-100 {
+    transform: scale(1);
+}
+.scale-hover-10:hover0 {
+    transform: scale(1);
+}
+
+.scale-90 {
+    transform: scale(0.90);
+}
+.scale-hover-90:hover {
+    transform: scale(0.90);
+}
+
+.scale-80 {
+    transform: scale(0.80);
+}
+.scale-hover-80:hover {
+    transform: scale(0.80);
+}
+
+.scale-75 {
+    transform: scale(0.75);
+}
+.scale-hover-75:hover {
+    transform: scale(0.75);
+}
+
+.scale-50 {
+    transform: scale(0.50);
+}
+.scale-hover-50:hover {
+    transform: scale(0.50);
+}
+
+.scale-25 {
+    transform: scale(0.25);
+}
+.scale-hover-25:hover {
+    transform: scale(0.25);
+}
+
+.scale-10 {
+    transform: scale(0.10);
+}
+.scale-hover-10:hover {
+    transform: scale(0.10);
+}
+
 
 /* DISPLAY NONE */
 /* Small devices (landscape phones, 576px and up) */
