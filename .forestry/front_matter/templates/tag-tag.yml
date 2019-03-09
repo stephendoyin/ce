@@ -1,7 +1,6 @@
 ---
 label: Library tag
 hide_body: false
-is_partial: false
 fields:
 - name: full-name
   label: Full name
