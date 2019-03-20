@@ -336,6 +336,7 @@
 .txt-color-7 {color: var(--accent-7) !important;}
 .txt-color-8 {color: var(--accent-8) !important;}
 .txt-color-9 {color: var(--accent-9) !important;}
+.txt-color-white {color: black !important;}
 
 /* ACCENT COLORS BACKGROUND*/
 .bg-color-main {background-color: var(--accent-main) !important;}
@@ -347,6 +348,7 @@
 .bg-color-7 {background-color: var(--accent-7) !important;}
 .bg-color-8 {background-color: var(--accent-8) !important;}
 .bg-color-9 {background-color: var(--accent-9) !important;}
+.bg-color-white {background-color: black !important;}
 
 /* LETTER SPACING */
 .lspacing-1 {letter-spacing: 1px !important;}
