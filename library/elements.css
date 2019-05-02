@@ -217,8 +217,12 @@
 	padding-right: 0px !important;
 }
 
-.rounded, .bd-radius {
+.rounded {
 	border-radius: 120px !important;
+}
+
+.bd-radius {
+	border-radius: var(--border-radius);
 }
 
 /* TOOLTIPS */
