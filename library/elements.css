@@ -1,10 +1,10 @@
 :root {
-	--collapse-trans-time: 0.3s!important;
-	--tooltip-trans-time: 0.2s!important;
-	--border-radius: 6px!important;
-	--tooltip-bg-color: #3D3D3D!important;
-	--tooltip-color: white!important;
-	--disabled-fade: 0.6!important;
+	--collapse-trans-time: 0.3s;
+	--tooltip-trans-time: 0.2s;
+	--border-radius: 6px;
+	--tooltip-bg-color: #3D3D3D;
+	--tooltip-color: white;
+	--disabled-fade: 0.6;
 
 	/* TARGET MARK */
 	--target-mark-bg: initial;
@@ -406,52 +406,52 @@
 /* ELEMENTS SCALE */
 
 .scale-100 {
-    transform: scale(1);
+    transform: scale(1) !important;
 }
-.scale-hover-10:hover0 {
-    transform: scale(1);
+.scale-hover-10:hover {
+    transform: scale(1) !important;
 }
 
 .scale-90 {
-    transform: scale(0.90);
+    transform: scale(0.90) !important;
 }
 .scale-hover-90:hover {
-    transform: scale(0.90);
+    transform: scale(0.90) !important;
 }
 
 .scale-80 {
-    transform: scale(0.80);
+    transform: scale(0.80) !important;
 }
 .scale-hover-80:hover {
-    transform: scale(0.80);
+    transform: scale(0.80) !important;
 }
 
 .scale-75 {
-    transform: scale(0.75);
+    transform: scale(0.75) !important;
 }
 .scale-hover-75:hover {
-    transform: scale(0.75);
+    transform: scale(0.75) !important;
 }
 
 .scale-50 {
-    transform: scale(0.50);
+    transform: scale(0.50) !important;
 }
 .scale-hover-50:hover {
-    transform: scale(0.50);
+    transform: scale(0.50) !important;
 }
 
 .scale-25 {
-    transform: scale(0.25);
+    transform: scale(0.25) !important;
 }
 .scale-hover-25:hover {
-    transform: scale(0.25);
+    transform: scale(0.25) !important;
 }
 
 .scale-10 {
-    transform: scale(0.10);
+    transform: scale(0.10) !important;
 }
 .scale-hover-10:hover {
-    transform: scale(0.10);
+    transform: scale(0.10) !important;
 }
 
 
