@@ -332,6 +332,7 @@
 
 /* ACCENT COLORS TEXT*/
 .txt-color-main {color: var(--accent-main) !important;}
+.txt-color-1 {color: var(--accent-1) !important;}
 .txt-color-2 {color: var(--accent-2) !important;}
 .txt-color-3 {color: var(--accent-3) !important;}
 .txt-color-4 {color: var(--accent-4) !important;}
@@ -346,6 +347,7 @@
 
 /* ACCENT COLORS BACKGROUND*/
 .bg-color-main {background-color: var(--accent-main) !important;}
+.bg-color-1 {background-color: var(--accent-1) !important;}
 .bg-color-2 {background-color: var(--accent-2) !important;}
 .bg-color-3 {background-color: var(--accent-3) !important;}
 .bg-color-4 {background-color: var(--accent-4) !important;}
