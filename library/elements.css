@@ -366,6 +366,9 @@
 .lspacing-3 {letter-spacing: 3px !important;}
 
 /* CURSORS */
+.clickable {
+	cursor: pointer !important;
+}
 
 /* FONT FAMILY */
 .font-main {
