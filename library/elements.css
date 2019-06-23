@@ -331,6 +331,7 @@
 }
 
 /* ACCENT COLORS TEXT*/
+.txt-color {color: var(--color) !important}
 .txt-color-main {color: var(--accent-main) !important;}
 .txt-color-1 {color: var(--accent-1) !important;}
 .txt-color-2 {color: var(--accent-2) !important;}
