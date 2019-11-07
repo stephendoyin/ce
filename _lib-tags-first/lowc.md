@@ -1,5 +1,5 @@
 ---
-full-name: lowc
+title: lowc
 class-name: lowc
 about: |-
   Set any text within an html-element in lowercase.

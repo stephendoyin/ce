@@ -37,7 +37,7 @@ lead: Now you added the javascript-file to your site you can start using it.
                 <div class="list-group">
                     <h5>Tags / main part</h5>
                     {% for tag in site.lib-tags-first %}
-                        <dt class="list-group-item"><a href="#tag-{{ tag.class-name }}">{{ tag.full-name }}<div style="display: none;">{{ tag.content }}</div></a></dt>
+                        <dt class="list-group-item"><a href="#tag-{{ tag.class-name }}">{{ tag.title }}<div style="display: none;">{{ tag.content }}</div></a></dt>
                     {% endfor %}
                 </div>
                 <div class="list-group">
@@ -70,7 +70,7 @@ lead: Now you added the javascript-file to your site you can start using it.
                         {% for tag in site.lib-tags-first %}
                                 <div id="tag-{{ tag.class-name }}" class="card" data-bug="{{ tag.bug }}" data-scnd-part="{{ tag.scnd-part }}">
                                     <div class="card-body">
-                                        <h5 class="card-title">{{ tag.full-name }}</h5>
+                                        <h5 class="card-title">{{ tag.title }}</h5>
                                         <p>
                                             {{ tag.about }}
                                         </p>
@@ -166,7 +166,7 @@ lead: Now you added the javascript-file to your site you can start using it.
                     <ul class="list-group list-group-flush">
                         {% for tag in site.lib-var-options %}
                                 <li id="option-{{ tag.class-name }}" class="list-group-item">
-                                    <h5>{{ tag.full-name }}</h5>
+                                    <h5>{{ tag.title }}</h5>
                                     {{ tag.content }}
                                 </li>
                         {% endfor %}
@@ -185,7 +185,7 @@ lead: Now you added the javascript-file to your site you can start using it.
                     <ul class="list-group list-group-flush">
                         {% for tag in site.lib-fonts %}
                             <li id="font-{{ tag.class-name }}" class="list-group-item">
-                                <h5>{{ tag.full-name }}</h5>
+                                <h5>{{ tag.title }}</h5>
                                 {{ tag.content }}
                             </li>
                         {% endfor %}

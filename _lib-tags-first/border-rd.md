@@ -1,5 +1,5 @@
 ---
-full-name: Border radius
+title: Border radius
 class-name: border-rd
 about: Adds a border-radius.
 scnd-part: false

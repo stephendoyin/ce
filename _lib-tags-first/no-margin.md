@@ -1,5 +1,5 @@
 ---
-full-name: no-margin
+title: no-margin
 class-name: no-margin
 scnd-part: true
 bug: true

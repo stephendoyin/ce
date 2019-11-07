@@ -2,7 +2,7 @@
 for_development:
   layout: library
   excerpt_separator: "<!--more-->"
-full-name: Test
+title: Test
 class-name: test
 about: test
 scnd-part: true

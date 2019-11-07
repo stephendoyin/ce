@@ -30,6 +30,8 @@ github_username: lennertderyck
 # Build settings
 markdown: kramdown
 theme: minima
+livereload: true
+
 plugins:
   - jekyll-feed
   - jekyll-coffeescript

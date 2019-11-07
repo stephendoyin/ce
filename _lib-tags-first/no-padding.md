@@ -1,5 +1,5 @@
 ---
-full-name: no-padding
+title: no-padding
 class-name: no-padding
 scnd-part: true
 ---

@@ -1,5 +1,5 @@
 ---
-full-name: tooltip-b
+title: tooltip-b
 class-name: tooltip-b
 bug: true
 about: Creates a tooltip relative to the html element. Add the 'tooltip-b' class to

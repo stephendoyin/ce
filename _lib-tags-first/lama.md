@@ -2,7 +2,7 @@
 for_development:
   layout: library
   excerpt_separator: "<!--more-->"
-full-name: Lama
+title: Lama
 class-name: lama
 about_about: Lama deescr
 about: bla bla bla

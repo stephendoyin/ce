@@ -1,5 +1,5 @@
 ---
-full-name: no-save
+title: no-save
 class-name: no-save
 
 ---

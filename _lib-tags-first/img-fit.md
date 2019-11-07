@@ -1,5 +1,5 @@
 ---
-full-name: img-fit
+title: img-fit
 class-name: img-fit
 scnd-part: false
 bug: false

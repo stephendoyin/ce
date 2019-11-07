@@ -1,5 +1,5 @@
 ---
-full-name: no-border
+title: no-border
 class-name: no-border
 scnd-part: true
 about: Removes the border of an element.
