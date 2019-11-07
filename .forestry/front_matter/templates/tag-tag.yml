@@ -2,7 +2,7 @@
 label: Library tag
 hide_body: false
 fields:
-- name: full-name
+- name: title
   label: Full name
   type: text
   hidden: false
