@@ -51,5 +51,4 @@ fields:
     hidden: false
   description: Settings for developers
 pages:
-- _lib-tags-first/lama.md
 - _lib-tags-first/img-fit.md
