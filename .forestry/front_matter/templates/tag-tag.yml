@@ -2,7 +2,7 @@
 label: Library tag
 hide_body: false
 fields:
-- name: full-name
+- name: title
   label: Full name
   type: text
   hidden: false
@@ -51,6 +51,4 @@ fields:
     hidden: false
   description: Settings for developers
 pages:
-- _lib-tags-first/lama.md
 - _lib-tags-first/img-fit.md
-- _lib-tags-first/disable.md
