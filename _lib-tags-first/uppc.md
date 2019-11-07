@@ -1,5 +1,5 @@
 ---
-title: uppc
+title: Uppercase text
 class-name: uppc
 about: |-
   Set any text within an html-element in uppercase.

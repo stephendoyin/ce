@@ -1,5 +1,5 @@
 ---
-title: img-clip
+title: Image clip
 class-name: img-clip
 bug: true
 about: With this class you can use any background-image as filling for text. Apply
