@@ -1,3 +1,5 @@
+@import "./flex-grid.css";
+
 :root {
 	--collapse-trans-time: 0.3s;
 	--tooltip-trans-time: 0.2s;
@@ -489,7 +491,6 @@
 .layer-9 {
 	z-index: 9000
 }
-
 
 /* DISPLAY NONE */
 /* Small devices (landscape phones, 576px and up) */
