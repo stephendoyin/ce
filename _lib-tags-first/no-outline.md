@@ -4,5 +4,7 @@ class-name: no-outline
 about: Removes the outline of an element.
 about_about: Remove the outline of an element.
 title: No outline
+scnd-part: false
+bug: false
 
 ---
