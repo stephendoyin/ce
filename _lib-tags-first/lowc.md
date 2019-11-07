@@ -6,5 +6,7 @@ about: |-
 
   [See also uppc](#tag-uppc)
 about_about: Set text in lowercase
+scnd-part: false
+bug: false
 
 ---
