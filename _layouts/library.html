@@ -18,8 +18,8 @@ layout: default
             </p>
             <small class="last-edited">
                 <span>last edited</span>
-                <p class="lastmod mb-0">{{ "now" | date: "%Y-%m-%d" }}</p>
-                <p class="lastmod mb-0">{% last_modified {{ page.path }} %}</p>
+                {% capture modified %}{% last_modified {{ page.path }} %}{% endcapture %}
+                <p class="lastmod mb-0">{{ modified | date: "%d-%m-%Y" }}</p>
             </small>
                    
             <br>
