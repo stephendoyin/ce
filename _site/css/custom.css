@@ -81,7 +81,7 @@ small.last-edited span {
   font-size: 10px;
   margin-bottom: -4px; }
 
-small.last-edited lastmod {
+small.last-edited .lastmod {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: bold;
@@ -420,11 +420,13 @@ small.last-edited lastmod {
 
 #tags div .card {
   position: relative;
-  margin: 15px 0px;
+  /* margin: 15px 0px; */
   /* max-width: calc(50% - 60px); */
-  height: unset !important;
+  /* height: unset !important; */
   overflow-y: hidden;
-  border-color: #007bff; }
+  border-color: #007bff;
+  background: none;
+  color: inherit; }
 
 #tags div .card p {
   white-space: nowrap;

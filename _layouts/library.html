@@ -18,18 +18,11 @@ layout: default
             </p>
             <small class="last-edited">
                 <span>last edited</span>
-                
+                <p class="lastmod mb-0">{{ "now" | date: "%Y-%m-%d" }}</p>
+                <p class="lastmod mb-0">{% last_modified {{ page.path }} %}</p>
             </small>
                    
             <br>
-            <!-- <dl id="list-tags">
-                <div class="list-group">
-                    <h5>More tags</h5>
-                    {% for tag in site.lib-tags-first %}
-                        <dt class="list-group-item"><a href="#tag-{{ tag.class-name }}">{{ tag.title }}<div style="display: none;">{{ tag.content }}</div></a></dt>
-                    {% endfor %}
-                </div>
-            </dl>-->
         </div>
         <div class="col-12 col-md-8">
             <p>{{ page.about }}</p>

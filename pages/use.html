@@ -2,11 +2,12 @@
 layout: page
 published: true
 title: Use of tags
+permalink: /use
 lead: Now you added the javascript-file to your site you can start using it.
 ---
 
 <!-- END OF HEADING-->
-<div class="container">
+<div class="container d-none">
     <div id="whats-new" class="card">
         <h5 class="card-header">What's new</h5>
         <div class="card-body">
@@ -66,9 +67,10 @@ lead: Now you added the javascript-file to your site you can start using it.
                         Most css-classes have diffrent parts in it's name.<br>
                         The main part defines the characteristics that need to change of a html-element.
                     </p>
-                    <div class="card-columns">
-                        {% for tag in site.lib-tags-first %}
-                                <div id="tag-{{ tag.class-name }}" class="card" data-bug="{{ tag.bug }}" data-scnd-part="{{ tag.scnd-part }}">
+                    <div class="flex-grid-wrapper row-item-1 row-item-sm-2">
+                        <div class="flex-grid">
+                            {% for tag in site.lib-tags-first %}
+                                <div id="tag-{{ tag.class-name }}" class="card flex-grid-item" data-bug="{{ tag.bug }}" data-scnd-part="{{ tag.scnd-part }}">
                                     <div class="card-body">
                                         <h5 class="card-title">{{ tag.title }}</h5>
                                         <p>
@@ -88,6 +90,7 @@ lead: Now you added the javascript-file to your site you can start using it.
                                     </div>
                                 </div>
                         {% endfor %}
+                        </div>
                     </div>
                 </div>
             </div>
