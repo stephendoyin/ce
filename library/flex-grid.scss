@@ -118,10 +118,6 @@
   }
   
   @media (min-width: 481px) {
-    .row {
-      margin-left: 0;
-      margin-right: 0;
-    }
     .col-sm-1 { flex: 0 0 8.333333%; max-width: 8.333333%; }
     .col-sm-2 { flex: 0 0 16.666667%; max-width: 16.666667%; }
     .col-sm-3 { flex: 0 0 25%; max-width: 25%; }

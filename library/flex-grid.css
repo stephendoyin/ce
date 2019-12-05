@@ -233,10 +233,6 @@
 }
 
 @media (min-width: 481px) {
-  [data-ce-grid] .row {
-    margin-left: 0;
-    margin-right: 0;
-  }
   [data-ce-grid] .col-sm-1 {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 8.333333%;
