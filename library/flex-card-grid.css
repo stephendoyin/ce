@@ -37,7 +37,7 @@
   height: -moz-fit-content;
   height: fit-content;
   background: var(--accent-1);
-  color: white;
+  /* color: white; */
 }
 
 .flex-grid-wrapper .flex-grid.grow {
