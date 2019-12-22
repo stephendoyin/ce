@@ -333,72 +333,63 @@
 /* BROWN */
     @font-face {
         font-family: 'Brown Itali';
-        src: local('Brown Italic'), local('Brown-Italic'),
-            url('./fonts/Brown-Itali.woff2') format('woff2');
+        src: url('./fonts/Brown-Itali.woff2') format('woff2');
         font-weight: normal;
         font-style: italic;
     }
 
     @font-face {
         font-family: 'Brown';
-        src: local('Brown-LightItalic'),
-            url('./fonts/Brown-LightItalic.woff2') format('woff2');
+        src: url('./fonts/Brown-LightItalic.woff2') format('woff2');
         font-weight: 300;
         font-style: italic;
     }
 
     @font-face {
         font-family: 'Brown';
-        src: local('Brown-RegularItalic'),
-            url('./fonts/Brown-RegularItalic.woff2') format('woff2');
+        src: url('./fonts/Brown-RegularItalic.woff2') format('woff2');
         font-weight: normal;
         font-style: italic;
     }
 
     @font-face {
         font-family: 'Brown';
-        src: local('Brown-Regular'),
-            url('./fonts/Brown-Regular.woff2') format('woff2');
+        src: url('./fonts/Brown-Regular.woff2') format('woff2');
         font-weight: normal;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'Brown';
-        src: local('Brown-Light'),
-            url('./fonts/Brown-Light.woff2') format('woff2');
+        src: url('./fonts/Brown-Light.woff2') format('woff2');
         font-weight: 300;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'Brown';
-        src: local('Brown-BoldItalic'),
-            url('./fonts/Brown-BoldItalic.woff2') format('woff2');
+        src: url('./fonts/Brown-BoldItalic.woff2') format('woff2');
         font-weight: bold;
         font-style: italic;
     }
 
     @font-face {
         font-family: 'Brown';
-        src: local('Brown-Bold'),
-            url('./fonts/Brown-Bold.woff2') format('woff2');
+        src: url('./fonts/Brown-Bold.woff2') format('woff2');
         font-weight: bold;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'Brown';
-        src: local('Brown-ThinItalic'),
-            url('./fonts/Brown-ThinItalic.woff2') format('woff2');
+        src: url('./fonts/Brown-ThinItalic.woff2') format('woff2');
         font-weight: 100;
         font-style: italic;
     }
 
     @font-face {
         font-family: 'Brown';
-        src: local('Brown-Thin'),
-            url('./fonts/Brown-Thin.woff2') format('woff2');
+        src: url('./fonts/Brown-Thin.woff2') format('woff2');
         font-weight: 100;
         font-style: normal;
     }
@@ -901,40 +892,35 @@
 /* SOLWAY */
     @font-face {
         font-family: 'Solway';
-        src: local('Solway Light'), local('Solway-Light'),
-            url('./fonts/Solway-Light.woff2') format('woff2');
+        src: url('./fonts/Solway-Light.woff2') format('woff2');
         font-weight: 300;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'Solway';
-        src: local('Solway Medium'), local('Solway-Medium'),
-            url('./fonts/Solway-Medium.woff2') format('woff2');
+        src: url('./fonts/Solway-Medium.woff2') format('woff2');
         font-weight: 500;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'Solway';
-        src: local('Solway Bold'), local('Solway-Bold'),
-            url('./fonts/Solway-Bold.woff2') format('woff2');
+        src: url('./fonts/Solway-Bold.woff2') format('woff2');
         font-weight: bold;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'Solway';
-        src: local('Solway Regular'), local('Solway-Regular'),
-            url('./fonts/Solway-Regular.woff2') format('woff2');
+        src: url('./fonts/Solway-Regular.woff2') format('woff2');
         font-weight: normal;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'Solway';
-        src: local('Solway ExtraBold'), local('Solway-ExtraBold'),
-            url('./fonts/Solway-ExtraBold.woff2') format('woff2');
+        src: url('./fonts/Solway-ExtraBold.woff2') format('woff2');
         font-weight: 800;
         font-style: normal;
     }
