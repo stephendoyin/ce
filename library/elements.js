@@ -8,6 +8,7 @@ function addCSSMain(filename){
     style.href = 'https://ce.lennertderyck.be/library/elements.css';
     style.type = 'text/css';
     style.rel = 'stylesheet';
+    style.setAttribute['crossorigin','anonymous'];
     head.append(style);
 }
 
@@ -34,6 +35,7 @@ function addCSSFonts(filename){
     style.href = 'https://ce.lennertderyck.be/library/fonts.css';
     style.type = 'text/css';
     style.rel = 'stylesheet';
+    style.setAttribute['crossorigin','anonymous'];
     head.append(style);
 }
 
