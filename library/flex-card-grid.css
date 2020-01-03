@@ -6,9 +6,11 @@
 }
 
 .flex-grid-wrapper {
-  overflow: hidden;
   --grid-row-items-n: 1;
   --grid-row-items-p: 20px;
+  
+  overflow: visible !important;
+  overflow-x: hidden;
 }
 
 .flex-grid-wrapper .flex-grid {
